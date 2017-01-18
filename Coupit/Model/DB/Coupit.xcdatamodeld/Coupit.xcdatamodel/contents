@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F37" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BrandCategories" syncable="YES">
+        <attribute name="mBrandID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mCategoryID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="BrandKeywords" syncable="YES">
+        <attribute name="mBrandID" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mKeyword" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Brands" representedClassName="Brands" syncable="YES">
+        <attribute name="mActiveCouponCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFullImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mLegalUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mThumbnailImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="mBackImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarCodeImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarcodeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCardDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCardName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCardNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCardPin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCardSavings" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mCardType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mFrontImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mHaveBarcodeImage" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mIsCameraImage" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mIsFliped" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="coupons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MyCoupons" syncable="YES"/>
+    </entity>
+    <entity name="Categories" representedClassName="Category" syncable="YES">
+        <attribute name="mChild" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="rChildren" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Categories" syncable="YES"/>
+    </entity>
+    <entity name="Coupon" representedClassName="Coupon" syncable="YES">
+        <attribute name="mBarcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarcodeImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarcodeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBrandId" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mBrandName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBrandType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCouponCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDownloaded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mFavorited" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mHotDeal" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mImageWithBarcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mImageWithoutBarcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mLegalUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLongPromoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mOnlineRedemptionUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPlanned" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mSavings" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mShortPromoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mThumbnailImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTodaysDeal" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mValidTill" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="CouponCategories" representedClassName="CouponCategories" syncable="YES">
+        <attribute name="mCategoryID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="mCouponID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CouponGroups" representedClassName="CouponGroups" syncable="YES">
+        <attribute name="mCouponID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mGroupID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="mIndex" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="CouponKeywords" syncable="YES">
+        <attribute name="mCouponID" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mKeyword" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Device" syncable="YES">
+        <attribute name="lcardname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lcardno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lcardpin" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GiftCards" representedClassName="GiftCards" syncable="YES">
+        <attribute name="mBackImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarcodeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBrandID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDirectoryState" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mDisplayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFrontImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="mImageWithoutBarcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mLegalUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLongPromoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPoints" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mSavings" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mSequenceNo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mShortPromoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mThumbNail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mValidFrom" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mValidTill" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Groups" representedClassName="Groups" syncable="YES">
+        <attribute name="mID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyCouponCategories" representedClassName="MyCouponCategories" syncable="YES">
+        <attribute name="mCategoryID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="mCouponID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MyCoupons" representedClassName="MyCoupons" syncable="YES">
+        <attribute name="mBarcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarcodeImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBarcodeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBrandId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mBrandName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBrandType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCouponCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCouponExpireDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDownloaded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mFavorited" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mImageWithBarcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mImageWithoutBarcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mLegalUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLongPromoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mOnlineRedemptionUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPlanned" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mRedeeemSelected" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mRedeemStatus" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mSavings" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mShortPromoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mThumbnailImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mValidity" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mValidTill" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="StoreCategories" syncable="YES">
+        <attribute name="mCategoryID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mStoreID" attributeType="Integer 32" syncable="YES"/>
+    </entity>
+    <entity name="StoreCoupons" syncable="YES">
+        <attribute name="mCouponID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mStoreID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="StoreKeywords" syncable="YES">
+        <attribute name="mKeyword" attributeType="String" syncable="YES"/>
+        <attribute name="mStoreID" attributeType="Integer 32" syncable="YES"/>
+    </entity>
+    <entity name="StoreLocations" representedClassName="StoreLocations" syncable="YES">
+        <attribute name="mAddressLine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCountry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mGeoCoordinate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mISO6709GeoCoordinate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLocationID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mRadius" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStoreID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mTimezone" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mZip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StorePreferences" representedClassName="StorePreferences" syncable="YES">
+        <attribute name="mBrandID" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mBrandName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDistanceAway" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mEntityType" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mGeoCoordinate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mID" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mNotificationEnabled" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mStoreID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mStoreName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mZip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Stores" representedClassName="Stores" syncable="YES">
+        <attribute name="mActiveCouponCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mBrandId" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="mBrandName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mBrandType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFullImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mID" attributeType="Integer 32" indexed="YES" syncable="YES"/>
+        <attribute name="mLastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mLegalUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mQRCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mThumbnailImage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SubCategories" representedClassName="SubCategories" syncable="YES">
+        <attribute name="mID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="mName" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BrandCategories" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="BrandKeywords" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Brands" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Card" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Categories" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Coupon" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CouponCategories" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CouponGroups" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CouponKeywords" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="GiftCards" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Groups" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MyCouponCategories" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MyCoupons" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="StoreCategories" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="StoreCoupons" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="StoreKeywords" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="StoreLocations" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="StorePreferences" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Stores" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="SubCategories" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Device" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

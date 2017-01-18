@@ -1,0 +1,63 @@
+Request	
+{"customer":"amit","identifier":"phpDev","email":"amitsalunkhe.genie@gmail.com"}
+
+Response	
+Success
+{
+  "success": true,
+  "account": {
+    "identifier": "phpDev",
+    "email": "amitsalunkhe.genie@gmail.com",
+    "customer": "amit",
+    "available_balance": 0
+  }
+}
+
+
+Get information
+
+Request	
+amit/phpDev
+Response	
+Success
+{"identifier":"phpDev","email":"amitsalunkhe.genie@gmail.com","customer":"amit","available_balance":0}
+
+
+
+
+Add Fund in Account
+
+Request	
+{
+  "customer": "amit",
+  "account_identifier": "phpDev",
+  "amount": 200,
+  "client_ip": "127.0.0.1",
+  "credit_card": {
+    "number": "4111111111111111",
+    "security_code": "123",
+    "expiration": "03/15",
+    "billing_address": {
+      "f_name": "FName",
+      "l_name": "LName",
+      "address": "Address",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98116",
+      "country": "USA",
+      "email": "test@example.com"
+    }
+  }
+}
+Response	
+{
+  "success": true,
+  "fund_id": "RF13-11270160-16",
+  "amount": 200
+}
+
+
+
+
+
+

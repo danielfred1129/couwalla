@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FamilyIncome</key>
+	<array>
+		<string>Select</string>
+		<string>Under $25,000</string>
+		<string>$25,001 - $49,999</string>
+		<string>$50,000 - $74,999</string>
+		<string>$75,000 - $99,999</string>
+		<string>$100,000 plus</string>
+	</array>
+	<key>No of Children</key>
+	<array>
+		<string>Select</string>
+		<string>Yes</string>
+		<string>No</string>
+	</array>
+	<key>Ethnicity</key>
+	<array>
+		<string>Select</string>
+		<string>Caucasian/White</string>
+		<string>African American/Black</string>
+		<string>Hispanic/Latino/Spanish</string>
+		<string>Asian</string>
+		<string>Other</string>
+	</array>
+	<key>MaritalStatus</key>
+	<array>
+		<string>Select</string>
+		<string>Single</string>
+		<string>Divorced</string>
+		<string>Married</string>
+		<string>Separated</string>
+		<string>Widowed</string>
+		<string>Domestic Partner</string>
+		<string>Other</string>
+	</array>
+	<key>CountryCode</key>
+	<array>
+		<string>IN</string>
+		<string>CA</string>
+		<string>US</string>
+	</array>
+	<key>CountryName</key>
+	<array>
+		<string>Select</string>
+		<string>Alabama</string>
+		<string>Alaska</string>
+		<string>Arizona</string>
+		<string>Arkansas</string>
+		<string>California</string>
+		<string>Colorado</string>
+		<string>Connecticut</string>
+		<string>Delware</string>
+		<string>Florida</string>
+		<string>Georgia</string>
+		<string>Hawaii</string>
+		<string>Idaho</string>
+		<string>Illinois</string>
+		<string>Indiana</string>
+		<string>Iowa</string>
+		<string>Kansas</string>
+		<string>Kentucky</string>
+		<string>Louisiana</string>
+		<string>Maine</string>
+		<string>Maryland</string>
+		<string>Massachusetts</string>
+		<string>Michigan</string>
+		<string>Minnesota</string>
+		<string>Mississippi</string>
+		<string>Missouri</string>
+		<string>Montana</string>
+		<string>Nebraska</string>
+		<string>Nevada</string>
+		<string>New Hampshire</string>
+		<string>New Jersey</string>
+		<string>New Mexico</string>
+		<string>New York</string>
+		<string>North Carolina</string>
+		<string>North Dakota</string>
+		<string>Ohio</string>
+		<string>Oklahoma</string>
+		<string>Oregon</string>
+		<string>Pennsylvania</string>
+		<string>Rhode Island</string>
+		<string>South Carolina</string>
+		<string>South Dakota</string>
+		<string>Tennessee</string>
+		<string>Texas</string>
+		<string>Utah</string>
+		<string>Vermont</string>
+		<string>Virginia</string>
+		<string>Washington</string>
+		<string>West Virginia</string>
+		<string>Wisconsin</string>
+		<string>Wyoming</string>
+	</array>
+	<key>Pets</key>
+	<array>
+		<string>Select</string>
+		<string>Dogs</string>
+		<string>Cats</string>
+		<string>Birds</string>
+		<string>Fish</string>
+		<string>Reptiles</string>
+		<string>No pets</string>
+		<string>Other</string>
+	</array>
+	<key>Education</key>
+	<array>
+		<string>Select</string>
+		<string>Some High School or less</string>
+		<string>High School Graduate</string>
+		<string>Some College</string>
+		<string>Associates Degree</string>
+		<string>College Graduate</string>
+		<string>Post Graduate Degree</string>
+		<string>Technical School</string>
+	</array>
+	<key>Take Cruises</key>
+	<array>
+		<string>Select</string>
+		<string>More than 2 times a year</string>
+		<string>1-2 times a year</string>
+		<string>Less than once per year</string>
+		<string>Never</string>
+	</array>
+</dict>
+</plist>

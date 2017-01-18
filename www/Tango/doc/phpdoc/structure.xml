@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a8" title="Tango Card PHP SDK">
+  <file path="examples\TangoCardSdk_Failures_Example.php" hash="72040397032f4e3cb8f6689012e25dcd" package="Default">
+    <docblock line="2">
+      <description><![CDATA[TangoCardSdk_Failures_Example.php, Example code using Tango Card SDK forcing
+failures and then collecting responses.]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <include line="42" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Example" line="49" package="Default">
+      <extends/>
+      <name>TangoCardSdk_Failures_Example</name>
+      <full_name>\TangoCard\Sdk\Example\TangoCardSdk_Failures_Example</full_name>
+      <docblock line="44">
+        <description><![CDATA[PHP Script example using Tango Card PHP SDK demonstrating how to handle failure responses.]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="TangoCard\Sdk\Example" line="55" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="51">
+          <description><![CDATA[Constructor that prevents a default instance of this class from being created.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Example" line="62" package="Default">
+        <name>Run</name>
+        <full_name>Run</full_name>
+        <docblock line="57">
+          <description><![CDATA[Example of running failure requests to Tango Card Service API
+through Tango Card PHP SDK.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="protected" namespace="TangoCard\Sdk\Example" line="84" package="Default">
+        <name>Example_GetAvailableBalance_InvalidCredentials</name>
+        <full_name>Example_GetAvailableBalance_InvalidCredentials</full_name>
+        <docblock line="80">
+          <description><![CDATA[Tests failure response condition for InvalidCredentials]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="protected" namespace="TangoCard\Sdk\Example" line="152" package="Default">
+        <name>Example_PurchaseCard_InsufficientFunds</name>
+        <full_name>Example_PurchaseCard_InsufficientFunds</full_name>
+        <docblock line="147">
+          <description><![CDATA[Example of purchace attempt with insufficent funds and how the error status is caught.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="examples\TangoCardSdk_Store_Example.php" hash="94297c82d26eafa8eeb050b07de4c4af" package="Default">
+    <docblock line="2">
+      <description><![CDATA[TangoCardSdk_Store_Example.php, Example code using Tango Card SDK to get available
+balance and purchase card.]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <include line="42" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Example" line="49" package="Default">
+      <extends/>
+      <name>TangoCardSdk_Store_Example</name>
+      <full_name>\TangoCard\Sdk\Example\TangoCardSdk_Store_Example</full_name>
+      <docblock line="44">
+        <description><![CDATA[Store Front PHP Script example using Tango Card PHP SDK.]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="TangoCard\Sdk\Example" line="55" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="51">
+          <description><![CDATA[Constructor that prevents a default instance of this class from being created.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Example" line="62" package="Default">
+        <name>Run</name>
+        <full_name>Run</full_name>
+        <docblock line="57">
+          <description><![CDATA[Example of running successful requests to Tango Card Service API
+through Tango Card PHP SDK.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Common\Helper.php" hash="8fc735d91dcec15b9f229d9e4859cdee" package="Default">
+    <docblock line="2">
+      <description><![CDATA[Common extension file Helper.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Common" line="47" package="TangoCard\PHP\SDK">
+      <extends/>
+      <name>Helper</name>
+      <full_name>\TangoCard\Sdk\Common\Helper</full_name>
+      <docblock line="41">
+        <description><![CDATA[Helper is a sample support extension class]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Common" line="58" package="TangoCard\PHP\SDK">
+        <name>isNullOrEmptyString</name>
+        <full_name>isNullOrEmptyString</full_name>
+        <docblock line="49">
+          <description><![CDATA[Checks if string is either null or empty]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="param" description="to be validated" type="string" variable="$string">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="49" name="return" description="true if string is null or empty" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+          <tag line="49" name="access" description="public"/>
+        </docblock>
+        <argument line="58">
+          <name>$string</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Common\SdkConfig.php" hash="3c87761a1be636508f71be84dd636f21" package="Default">
+    <docblock line="2">
+      <description><![CDATA[Configuration file parser SdkConfig.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Common" line="47" package="TangoCard\PHP\SDK">
+      <extends/>
+      <name>SdkConfig</name>
+      <full_name>\TangoCard\Sdk\Common\SdkConfig</full_name>
+      <docblock line="41">
+        <description><![CDATA[SdkConfig reads configuration file config/tc_sdk_config.ini]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="54" namespace="TangoCard\Sdk\Common" package="Default">
+        <name>$_tc_sdk_config_file</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="49">
+          <description><![CDATA[SDK Config file path]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="60" namespace="TangoCard\Sdk\Common" package="Default">
+        <name>$_tc_sdk_config</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="55">
+          <description><![CDATA[Parsed SDK config file's contents]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="TangoCard\Sdk\Common" line="71" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="62">
+          <description><![CDATA[Constructs by reading the SDK configuration settings from tc_sdk_config.ini.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="62" name="throws" description="" type="\TangoCardSdkException">
+            <type by_reference="false">\TangoCardSdkException</type>
+          </tag>
+          <tag line="62" name="throws" description="" type="\TangoCard\Sdk\Common\Exception">
+            <type by_reference="false">\TangoCard\Sdk\Common\Exception</type>
+          </tag>
+          <tag line="62" name="access" description="private"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Common" line="97" package="TangoCard\PHP\SDK">
+        <name>getConfigValue</name>
+        <full_name>getConfigValue</full_name>
+        <docblock line="89">
+          <description><![CDATA[Reads configuration setting for provided key.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="89" name="param" description="" type="string" variable="$key">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="throws" description="" type="\TangoCard\Sdk\Common\Exception">
+            <type by_reference="false">\TangoCard\Sdk\Common\Exception</type>
+          </tag>
+        </docblock>
+        <argument line="97">
+          <name>$key</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Common" line="114" package="TangoCard\PHP\SDK">
+        <name>getInstance</name>
+        <full_name>getInstance</full_name>
+        <docblock line="108">
+          <description><![CDATA[Returns a singleton instance.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="108" name="return" description="" type="\TangoCard\Sdk\Common\SdkConfig">
+            <type by_reference="false">\TangoCard\Sdk\Common\SdkConfig</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Common\TangoCardSdkException.php" hash="fde7f8818c44cb5bc084772580fbb06f" package="Default">
+    <docblock line="2">
+      <description><![CDATA[SDK Custom Exception TangoCardSdkException.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Common" line="44" package="Default">
+      <extends>\Exception</extends>
+      <name>TangoCardSdkException</name>
+      <full_name>\TangoCard\Sdk\Common\TangoCardSdkException</full_name>
+      <docblock line="41">
+        <description><![CDATA[TangoCardSdkException is thrown when the Tango Card SDK has detected an error within its code, regardless of any given Request.]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Common" line="47" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <argument line="47">
+          <name>$message</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="47">
+          <name>$code</name>
+          <default><![CDATA[0]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Common" line="52" package="Default">
+        <name>__toString</name>
+        <full_name>__toString</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="47" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="52" code="50010">No DocBlock was found for method __toString()</error>
+    </parse_markers>
+  </file>
+  <file path="lib\TangoCard\Sdk\Request\BaseRequest.php" hash="fd6b68fbf36beef3d38a37f080466596" package="Default">
+    <docblock line="2">
+      <description><![CDATA[BaseRequest.php.]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Request" line="47" package="TangoCard\PHP\SDK">
+      <extends/>
+      <name>BaseRequest</name>
+      <full_name>\TangoCard\Sdk\Request\BaseRequest</full_name>
+      <docblock line="41">
+        <description><![CDATA[BaseRequest provides the basic interface for all the possible request types.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="54" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_username</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="49">
+          <description><![CDATA[Username]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="60" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_password</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="55">
+          <description><![CDATA[Password]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="67" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_enumTangoCardServiceApi</name>
+        <default><![CDATA[\TangoCard\Sdk\Service\TangoCardServiceApiEnum::UNDEFINED]]></default>
+        <docblock line="62">
+          <description><![CDATA[Tango Card Service API environment selection]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="62" name="var" description="" type="\TangoCard\Sdk\Service\TangoCardServiceApiEnum">
+            <type by_reference="false">\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="true" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="75" package="TangoCard\PHP\SDK">
+        <name>getRequestAction</name>
+        <full_name>getRequestAction</full_name>
+        <docblock line="69">
+          <description><![CDATA[Get controller action for this request.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="69" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="true" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="83" package="TangoCard\PHP\SDK">
+        <name>getJsonEncodedRequest</name>
+        <full_name>getJsonEncodedRequest</full_name>
+        <docblock line="77">
+          <description><![CDATA[Get JSON mapped and encoded request body.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="77" name="param" description="" type="object" variable="$requestJsonEncoded">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="83">
+          <name>$requestJsonEncoded</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="97" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="85">
+          <description><![CDATA[Construct a new abstract request object.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="85" name="param" description="Selection of which Tango Card Service API environment" type="\TangoCard\Sdk\Service\TangoCardServiceApiEnum" variable="$enumTangoCardServiceApi">
+            <type by_reference="false">\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+          <tag line="85" name="param" description="Tango Card Service access username" type="string" variable="$username">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="85" name="param" description="Tango Card Service access password" type="string" variable="$password">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="85" name="throws" description="One of the supplied arguments was not in the expected state." type="\TangoCard\Sdk\Request\InvalidArgumentException">
+            <type by_reference="false">\TangoCard\Sdk\Request\InvalidArgumentException</type>
+          </tag>
+          <tag line="85" name="access" description="public"/>
+        </docblock>
+        <argument line="98">
+          <name>$enumTangoCardServiceApi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="99">
+          <name>$username</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="100">
+          <name>$password</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="135" package="TangoCard\PHP\SDK">
+        <name>getUsername</name>
+        <full_name>getUsername</full_name>
+        <docblock line="131">
+          <description><![CDATA[Get username property]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="145" package="TangoCard\PHP\SDK">
+        <name>setUsername</name>
+        <full_name>setUsername</full_name>
+        <docblock line="140">
+          <description><![CDATA[Set username property]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="140" name="param" description="" type="string" variable="$username">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="145">
+          <name>$username</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="154" package="TangoCard\PHP\SDK">
+        <name>getPassword</name>
+        <full_name>getPassword</full_name>
+        <docblock line="150">
+          <description><![CDATA[Get password property]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="164" package="TangoCard\PHP\SDK">
+        <name>setPassword</name>
+        <full_name>setPassword</full_name>
+        <docblock line="159">
+          <description><![CDATA[Set password property]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="159" name="param" description="" type="" variable="$password"/>
+        </docblock>
+        <argument line="164">
+          <name>$password</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="174" package="TangoCard\PHP\SDK">
+        <name>getTangoCardServiceApiEnum</name>
+        <full_name>getTangoCardServiceApiEnum</full_name>
+        <docblock line="169">
+          <description><![CDATA[Get TangoCardServiceApiEnum property]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="169" name="return" description="" type="\TangoCard\Sdk\Request\TangoCardServiceApiEnum">
+            <type by_reference="false">\TangoCard\Sdk\Request\TangoCardServiceApiEnum</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="184" package="TangoCard\PHP\SDK">
+        <name>setTangoCardServiceApiEnum</name>
+        <full_name>setTangoCardServiceApiEnum</full_name>
+        <docblock line="179">
+          <description><![CDATA[Set TangoCardServiceApiEnum property]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="179" name="param" description="" type="\TangoCard\Sdk\Request\TangoCard\Sdk\Service\TangoCardServiceApiEnum" variable="$enumTangoCardServiceApi">
+            <type by_reference="false">\TangoCard\Sdk\Request\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+        </docblock>
+        <argument line="184">
+          <name>$enumTangoCardServiceApi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="197" package="TangoCard\PHP\SDK">
+        <name>execute</name>
+        <full_name>execute</full_name>
+        <docblock line="189">
+          <description><![CDATA[Execute request]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="189" name="param" description="" type="\TangoCard\Sdk\Response\Success\SuccessResponse" variable="$response">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\SuccessResponse</type>
+          </tag>
+          <tag line="189" name="return" description="upon success, else False" type="True">
+            <type by_reference="false">True</type>
+          </tag>
+        </docblock>
+        <argument line="197">
+          <name>$response</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Request\GetAvailableBalanceRequest.php" hash="58089a3c5a962acd89295d690074b1b3" package="Default">
+    <docblock line="2">
+      <description><![CDATA[GetAvailableBalanceRequest.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Request" line="47" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Request\BaseRequest</extends>
+      <name>GetAvailableBalanceRequest</name>
+      <full_name>\TangoCard\Sdk\Request\GetAvailableBalanceRequest</full_name>
+      <docblock line="41">
+        <description><![CDATA[GetAvailableBalanceRequest gets the available balance for a user account.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="56" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="49">
+          <description><![CDATA[Set up a new GetAvailableBalance request.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="param" description="Selection of which Tango Card Service API environment" type="\TangoCard\Sdk\Service\TangoCardServiceApiEnum" variable="$enumTangoCardServiceApi">
+            <type by_reference="false">\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+          <tag line="49" name="param" description="The username to access User's registered Tango Card account" type="string" variable="$username">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="49" name="param" description="The password to access User's registered Tango Card account" type="string" variable="$password">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="57">
+          <name>$enumTangoCardServiceApi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="58">
+          <name>$username</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="59">
+          <name>$password</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="77" package="TangoCard\PHP\SDK">
+        <name>execute</name>
+        <full_name>execute</full_name>
+        <docblock line="66">
+          <description><![CDATA[Execute request]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="66" name="param" description="&amp;$response" type="\TangoCard\Sdk\Response\Success\GetAvailableBalanceResponse" variable="$response">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\GetAvailableBalanceResponse</type>
+          </tag>
+          <tag line="66" name="return" description="upon success, else False (non-PHPdoc)" type="True">
+            <type by_reference="false">True</type>
+          </tag>
+          <tag line="66" name="see" description="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::execute()" refers="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::execute()"/>
+        </docblock>
+        <argument line="77">
+          <name>$response</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="86" package="TangoCard\PHP\SDK">
+        <name>getRequestAction</name>
+        <full_name>getRequestAction</full_name>
+        <docblock line="82">
+          <description><![CDATA[(non-PHPdoc)]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="82" name="see" description="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getRequestAction()" refers="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getRequestAction()"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="102" package="TangoCard\PHP\SDK">
+        <name>getJsonEncodedRequest</name>
+        <full_name>getJsonEncodedRequest</full_name>
+        <docblock line="91">
+          <description><![CDATA[JSON representation of a GetAvailableBalance Request]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="91" name="param" description="&amp;$requestJsonEncoded" type="string" variable="$requestJsonEncoded">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="91" name="return" description="upon success, else False (non-PHPdoc)" type="True">
+            <type by_reference="false">True</type>
+          </tag>
+          <tag line="91" name="see" description="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getJsonEncodedRequest()" refers="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getJsonEncodedRequest()"/>
+        </docblock>
+        <argument line="102">
+          <name>$requestJsonEncoded</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Request\PurchaseCardRequest.php" hash="43f670cdc235d9d2a0f63c92db6a8bd1" package="Default">
+    <docblock line="2">
+      <description><![CDATA[PurchaseCardRequest.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Request" line="47" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Request\BaseRequest</extends>
+      <name>PurchaseCardRequest</name>
+      <full_name>\TangoCard\Sdk\Request\PurchaseCardRequest</full_name>
+      <docblock line="41">
+        <description><![CDATA[PurchaseCardRequest purchases a card using a user account.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="52" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_card_sku</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="49">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="57" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_card_value</name>
+        <default><![CDATA[0]]></default>
+        <docblock line="54">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="54" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="62" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_tc_send</name>
+        <default><![CDATA[false]]></default>
+        <docblock line="59">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="59" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="67" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_recipient_name</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="64">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="64" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="72" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_recipient_email</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="69">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="69" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="77" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_gift_message</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="74">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="74" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="82" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_gift_from</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="79">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="79" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="87" namespace="TangoCard\Sdk\Request" package="Default">
+        <name>$_company_identifier</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="84">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="84" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="118" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="89">
+          <description><![CDATA[Set up a new PurchaseCard request.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="89" name="param" description="Selection of which Tango Card Service API environment" type="\TangoCard\Sdk\Service\TangoCardServiceApiEnum" variable="$enumTangoCardServiceApi">
+            <type by_reference="false">\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+          <tag line="89" name="param" description="The username to access User's registered Tango Card account" type="string" variable="$username">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="param" description="The password to access User's registered Tango Card account" type="string" variable="$password">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="param" description="The SKU of the card to purchase." type="string" variable="$cardSku">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="param" description="The value of the card to buy in cents (example 500 = $5.00)." type="int" variable="$cardValue">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="89" name="param" description="Determines if Tango Card Service will send an email with gift card information to recipient. Email gift card and return the card's details (true), or just return the card's details (false)." type="bool" variable="$tcSend">
+            <type by_reference="false">bool</type>
+          </tag>
+          <tag line="89" name="param" description="The name of the recipient. Only necessary if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$recipientName">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="param" description="The email address of the recipient. Only necessary if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$recipientEmail">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="param" description="The gift message to send to the recipient. Only necessary if tcSend = true. If tcSend = false, this input will be ignored." type="string" variable="$giftMessage">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="param" description="The name of the person giving the gift. Optional if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$giftFrom">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="param" description="The Company identifier for which Email Template when sending Gift Card. Optional if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$companyIdentifier">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="89" name="throws" description="One of the supplied arguments was not in the expected state." type="\InvalidArgumentException">
+            <type by_reference="false">\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="119">
+          <name>$enumTangoCardServiceApi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="120">
+          <name>$username</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="121">
+          <name>$password</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="122">
+          <name>$cardSku</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="123">
+          <name>$cardValue</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="124">
+          <name>$tcSend</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="125">
+          <name>$recipientName</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+        <argument line="126">
+          <name>$recipientEmail</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+        <argument line="127">
+          <name>$giftMessage</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+        <argument line="128">
+          <name>$giftFrom</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+        <argument line="129">
+          <name>$companyIdentifier</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="255" package="TangoCard\PHP\SDK">
+        <name>execute</name>
+        <full_name>execute</full_name>
+        <docblock line="244">
+          <description><![CDATA[Execute request]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="244" name="param" description="" type="\TangoCard\Sdk\Response\Success\PurchaseCardResponse" variable="$response">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\PurchaseCardResponse</type>
+          </tag>
+          <tag line="244" name="return" description="upon success, else False (non-PHPdoc)" type="True">
+            <type by_reference="false">True</type>
+          </tag>
+          <tag line="244" name="see" description="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::execute()" refers="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::execute()"/>
+        </docblock>
+        <argument line="255">
+          <name>$response</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="264" package="TangoCard\PHP\SDK">
+        <name>getRequestAction</name>
+        <full_name>getRequestAction</full_name>
+        <docblock line="260">
+          <description><![CDATA[(non-PHPdoc)]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="260" name="see" description="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getRequestAction()" refers="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getRequestAction()"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Request" line="280" package="TangoCard\PHP\SDK">
+        <name>getJsonEncodedRequest</name>
+        <full_name>getJsonEncodedRequest</full_name>
+        <docblock line="269">
+          <description><![CDATA[JSON representation of a PurchaseCard Request]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="269" name="param" description="&amp;$requestJsonEncoded" type="string" variable="$requestJsonEncoded">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="269" name="return" description="upon success, else False (non-PHPdoc)" type="True">
+            <type by_reference="false">True</type>
+          </tag>
+          <tag line="269" name="see" description="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getJsonEncodedRequest()" refers="\src/TangoCard/Sdk/Request/TangoCard\Sdk\Request.BaseRequest::getJsonEncodedRequest()"/>
+        </docblock>
+        <argument line="280">
+          <name>$requestJsonEncoded</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\BaseResponse.php" hash="13000bf30c3b78a78f73fb3e396df109" package="Default">
+    <docblock line="2">
+      <description><![CDATA[BaseResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response" line="46" package="TangoCard\PHP\SDK">
+      <extends/>
+      <name>BaseResponse</name>
+      <full_name>\TangoCard\Sdk\Response\BaseResponse</full_name>
+      <docblock line="40">
+        <description><![CDATA[Provides the basic interface for all the possible response types.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="40" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="40" name="access" description="public"/>
+      </docblock>
+      <method final="false" abstract="true" static="false" visibility="public" namespace="TangoCard\Sdk\Response" line="53" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="48">
+          <description><![CDATA[Abstract constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="48" name="param" description="" type="" variable="$response"/>
+        </docblock>
+        <argument line="53">
+          <name>$response</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Failure\FailureResponse.php" hash="dc20aeb6456d38068b61c62ad1b6e8a8" package="Default">
+    <docblock line="2">
+      <description><![CDATA[FailureResponse.php, Abstract base class for all failure responses.]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Failure" line="47" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\BaseResponse</extends>
+      <name>FailureResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Failure\FailureResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[Provides the basic interface for all failure response types.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <method final="false" abstract="true" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="53" package="TangoCard\PHP\SDK">
+        <name>getMessage</name>
+        <full_name>getMessage</full_name>
+        <docblock line="49">
+          <description><![CDATA[Get failure message]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Failure\InsufficientFundsResponse.php" hash="0444af12872e03eb1e3db3355509e034" package="Default">
+    <docblock line="2">
+      <description><![CDATA[InsufficientFundsResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Failure" line="48" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\Failure\FailureResponse</extends>
+      <name>InsufficientFundsResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Failure\InsufficientFundsResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[This response type indicates that the authenticated account did not have
+sufficient funds available to make the purchase.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="53" namespace="TangoCard\Sdk\Response\Failure" package="Default">
+        <name>$_availableBalance</name>
+        <default><![CDATA[]]></default>
+        <docblock line="50">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="50" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="58" namespace="TangoCard\Sdk\Response\Failure" package="Default">
+        <name>$_orderCost</name>
+        <default><![CDATA[]]></default>
+        <docblock line="55">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="65" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="60">
+          <description><![CDATA[Construct a new InsufficientFunds failure type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="60" name="param" description="The parsed (JSON) object returned from the Tango Card services." type="object" variable="$responseJson">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="65">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="75" package="TangoCard\PHP\SDK">
+        <name>getAvailableBalance</name>
+        <full_name>getAvailableBalance</full_name>
+        <docblock line="71">
+          <description><![CDATA[Get the funds available (in cents) to the authenticated account.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="71" name="return" description="The funds available to the user." type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="84" package="TangoCard\PHP\SDK">
+        <name>getOrderCost</name>
+        <full_name>getOrderCost</full_name>
+        <docblock line="80">
+          <description><![CDATA[Get the final cost of the order, were it processed.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="80" name="return" description="The order cost." type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="93" package="TangoCard\PHP\SDK">
+        <name>getMessage</name>
+        <full_name>getMessage</full_name>
+        <docblock line="89">
+          <description><![CDATA[Get error message for this failure response.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="89" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Failure\InsufficientInventoryResponse.php" hash="5f4d660b047a18b7bb7f4973006bb9d0" package="Default">
+    <docblock line="2">
+      <description><![CDATA[InsufficientInventoryResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Failure" line="48" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\Failure\FailureResponse</extends>
+      <name>InsufficientInventoryResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Failure\InsufficientInventoryResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[This response type indicates that the item was not available for purchase
+due to there not being enough available inventory.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="53" namespace="TangoCard\Sdk\Response\Failure" package="Default">
+        <name>$_sku</name>
+        <default><![CDATA[]]></default>
+        <docblock line="50">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="50" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="58" namespace="TangoCard\Sdk\Response\Failure" package="Default">
+        <name>$_value</name>
+        <default><![CDATA[]]></default>
+        <docblock line="55">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="65" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="60">
+          <description><![CDATA[Construct a new InsufficientInventory failure type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="60" name="param" description="The parsed (JSON) object returned from the Tango Card services." type="object" variable="$responseJson">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="65">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="75" package="TangoCard\PHP\SDK">
+        <name>getSku</name>
+        <full_name>getSku</full_name>
+        <docblock line="71">
+          <description><![CDATA[Get the SKU that was requested.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="71" name="return" description="The requested sku." type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="84" package="TangoCard\PHP\SDK">
+        <name>getValue</name>
+        <full_name>getValue</full_name>
+        <docblock line="80">
+          <description><![CDATA[Get the value that was requested.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="80" name="return" description="The requested card value (in cents)." type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="93" package="TangoCard\PHP\SDK">
+        <name>getMessage</name>
+        <full_name>getMessage</full_name>
+        <docblock line="89">
+          <description><![CDATA[Get error message for this failure response.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="89" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Failure\InvalidCredentialsResponse.php" hash="0abe906c1016f6ef1aeb4e4ad12d3e40" package="Default">
+    <docblock line="2">
+      <description><![CDATA[InvalidCredentialsResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Failure" line="48" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\Failure\FailureResponse</extends>
+      <name>InvalidCredentialsResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Failure\InvalidCredentialsResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[This response type indicates that the supplied login credentials were
+invalid.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="53" namespace="TangoCard\Sdk\Response\Failure" package="Default">
+        <name>$_message</name>
+        <default><![CDATA[]]></default>
+        <docblock line="50">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="50" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="60" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="55">
+          <description><![CDATA[Construct a new InvalidCredentials failure type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="param" description="The parsed (JSON) object returned from the Tango Card services." type="object" variable="$responseJson">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="60">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="70" package="TangoCard\PHP\SDK">
+        <name>getMessage</name>
+        <full_name>getMessage</full_name>
+        <docblock line="65">
+          <description><![CDATA[Get the detailed error message.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="65" name="return" description="A message from the Tango Card services indicating what it thinks the problem is." type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Failure\InvalidInputResponse.php" hash="db5e14eec6bf7357b7657b1c10be1221" package="Default">
+    <docblock line="2">
+      <description><![CDATA[InvalidInputResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Failure" line="47" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\Failure\FailureResponse</extends>
+      <name>InvalidInputResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Failure\InvalidInputResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[This response type indicates that there was a problem with the inputs.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="52" namespace="TangoCard\Sdk\Response\Failure" package="Default">
+        <name>$_invalid</name>
+        <default><![CDATA[]]></default>
+        <docblock line="49">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="59" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="54">
+          <description><![CDATA[Construct a new InvalidInput failure type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="54" name="param" description="The parsed (JSON) object returned from the Tango Card services." type="object" variable="$responseJson">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="59">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="70" package="TangoCard\PHP\SDK">
+        <name>getInvalid</name>
+        <full_name>getInvalid</full_name>
+        <docblock line="64">
+          <description><![CDATA[Get the invalid inputs.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="64" name="return" description="An associative array of the invalid inputs where the keys are the name of the invalid input and the values are a message describing the problem." type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="79" package="TangoCard\PHP\SDK">
+        <name>getMessage</name>
+        <full_name>getMessage</full_name>
+        <docblock line="75">
+          <description><![CDATA[Get error message for this failure response.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="75" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Failure\SystemErrorResponse.php" hash="a76bf6d1f52e5baddccd4e807dc3e6a5" package="Default">
+    <docblock line="2">
+      <description><![CDATA[SystemErrorResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Failure" line="48" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\Failure\FailureResponse</extends>
+      <name>SystemErrorResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Failure\SystemErrorResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[This response type indicates that there was an error internal to the
+TangoCard service.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="53" namespace="TangoCard\Sdk\Response\Failure" package="Default">
+        <name>$_errorCode</name>
+        <default><![CDATA[]]></default>
+        <docblock line="50">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="50" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="60" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="55">
+          <description><![CDATA[Construct a new SystemError failure type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="param" description="The parsed (JSON) object returned from the Tango Card services." type="object" variable="$responseJson">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="60">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="71" package="TangoCard\PHP\SDK">
+        <name>getErrorCode</name>
+        <full_name>getErrorCode</full_name>
+        <docblock line="65">
+          <description><![CDATA[Get the error code returned by Tango Card's services.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="65" name="return" description="An error code that can be used when talking to Tango Card's technical support team to describe the specific problem area." type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Failure" line="80" package="TangoCard\PHP\SDK">
+        <name>getMessage</name>
+        <full_name>getMessage</full_name>
+        <docblock line="76">
+          <description><![CDATA[Get error message for this failure response.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="76" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\ServiceResponseEnum.php" hash="6bc1e43e6d0926178b237d275d1f8635" package="Default">
+    <docblock line="2">
+      <description><![CDATA[ServiceResponseEnum.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response" line="47" package="TangoCard\PHP\SDK">
+      <extends/>
+      <name>ServiceResponseEnum</name>
+      <full_name>\TangoCard\Sdk\Response\ServiceResponseEnum</full_name>
+      <docblock line="41">
+        <description><![CDATA[Enumeration of expected response types from Tango Card Service API.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <constant namespace="TangoCard\Sdk\Response" line="54" package="TangoCard\PHP\SDK">
+        <name>UNDEFINED</name>
+        <full_name>UNDEFINED</full_name>
+        <value><![CDATA[0]]></value>
+        <docblock line="49">
+          <description><![CDATA[Undefined response]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Response" line="61" package="TangoCard\PHP\SDK">
+        <name>SUCCESS</name>
+        <full_name>SUCCESS</full_name>
+        <value><![CDATA[1]]></value>
+        <docblock line="56">
+          <description><![CDATA[Success.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="56" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Response" line="67" package="TangoCard\PHP\SDK">
+        <name>INS_FUNDS</name>
+        <full_name>INS_FUNDS</full_name>
+        <value><![CDATA[2]]></value>
+        <docblock line="62">
+          <description><![CDATA[Failure - Insufficient Funds.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="62" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Response" line="74" package="TangoCard\PHP\SDK">
+        <name>INV_CREDENTIAL</name>
+        <full_name>INV_CREDENTIAL</full_name>
+        <value><![CDATA[3]]></value>
+        <docblock line="69">
+          <description><![CDATA[Failure - Invalid Credentials]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="69" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Response" line="81" package="TangoCard\PHP\SDK">
+        <name>INV_INPUT</name>
+        <full_name>INV_INPUT</full_name>
+        <value><![CDATA[4]]></value>
+        <docblock line="76">
+          <description><![CDATA[Failure - Invalid Input]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="76" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Response" line="88" package="TangoCard\PHP\SDK">
+        <name>INS_INV</name>
+        <full_name>INS_INV</full_name>
+        <value><![CDATA[5]]></value>
+        <docblock line="83">
+          <description><![CDATA[Failure - Insufficient Inventory]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="83" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Response" line="95" package="TangoCard\PHP\SDK">
+        <name>SYS_ERROR</name>
+        <full_name>SYS_ERROR</full_name>
+        <value><![CDATA[6]]></value>
+        <docblock line="90">
+          <description><![CDATA[Failure - Service System Error]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="90" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <property final="false" static="true" visibility="private" line="102" namespace="TangoCard\Sdk\Response" package="Default">
+        <name>$_arrayToString</name>
+        <default><![CDATA[array(\TangoCard\Sdk\Response\ServiceResponseEnum::UNDEFINED => "UNDEFINED", \TangoCard\Sdk\Response\ServiceResponseEnum::SUCCESS => "SUCCESS", \TangoCard\Sdk\Response\ServiceResponseEnum::INS_FUNDS => "INS_FUNDS", \TangoCard\Sdk\Response\ServiceResponseEnum::INV_CREDENTIAL => "INV_CREDENTIAL", \TangoCard\Sdk\Response\ServiceResponseEnum::INV_INPUT => "INV_INPUT", \TangoCard\Sdk\Response\ServiceResponseEnum::INS_INV => "INS_INV", \TangoCard\Sdk\Response\ServiceResponseEnum::SYS_ERROR => "SYS_ERROR")]]></default>
+        <docblock line="97">
+          <description><![CDATA[TangoCard\Sdk\Response\ServiceResponseEnum to String]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="97" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="true" visibility="private" line="118" namespace="TangoCard\Sdk\Response" package="Default">
+        <name>$_arrayToEnum</name>
+        <default><![CDATA[array("UNDEFINED" => \TangoCard\Sdk\Response\ServiceResponseEnum::UNDEFINED, "SUCCESS" => \TangoCard\Sdk\Response\ServiceResponseEnum::SUCCESS, "INS_FUNDS" => \TangoCard\Sdk\Response\ServiceResponseEnum::INS_FUNDS, "INV_CREDENTIAL" => \TangoCard\Sdk\Response\ServiceResponseEnum::INV_CREDENTIAL, "INV_INPUT" => \TangoCard\Sdk\Response\ServiceResponseEnum::INV_INPUT, "INS_INV" => \TangoCard\Sdk\Response\ServiceResponseEnum::INS_INV, "SYS_ERROR" => \TangoCard\Sdk\Response\ServiceResponseEnum::SYS_ERROR)]]></default>
+        <docblock line="113">
+          <description><![CDATA[String to TangoCard\Sdk\Response\ServiceResponseEnum]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="113" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Response" line="135" package="TangoCard\PHP\SDK">
+        <name>toString</name>
+        <full_name>toString</full_name>
+        <docblock line="129">
+          <description><![CDATA[String value of response type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="129" name="param" description="" type="\TangoCard\Sdk\Response\TangoCard\Sdk\Response\ServiceResponseEnum" variable="$enumResponseType">
+            <type by_reference="false">\TangoCard\Sdk\Response\TangoCard\Sdk\Response\ServiceResponseEnum</type>
+          </tag>
+          <tag line="129" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="135">
+          <name>$enumResponseType</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Response" line="151" package="TangoCard\PHP\SDK">
+        <name>toEnum</name>
+        <full_name>toEnum</full_name>
+        <docblock line="145">
+          <description><![CDATA[Enum value of response type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="145" name="param" description="" type="string" variable="$strResponseType">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="145" name="throws" description="" type="\TangoCard\Sdk\Common\TangoCardSdkException">
+            <type by_reference="false">\TangoCard\Sdk\Common\TangoCardSdkException</type>
+          </tag>
+        </docblock>
+        <argument line="151">
+          <name>$strResponseType</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Success\GetAvailableBalanceResponse.php" hash="9a004667e4e1bb55c412ce88e9b33917" package="Default">
+    <docblock line="2">
+      <description><![CDATA[GetAvailableBalanceResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Success" line="47" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\Success\SuccessResponse</extends>
+      <name>GetAvailableBalanceResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Success\GetAvailableBalanceResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[The successful response to a {@link TangoCard\Sdk\Request\GetAvailableBalance} request.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="52" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_availableBalance</name>
+        <default><![CDATA[]]></default>
+        <docblock line="49">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="59" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="54">
+          <description><![CDATA[Construct a new GetAvailableBalance success type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="54" name="param" description="The parsed (JSON) object returned from the Tango Card services." type="object" variable="$responseJson">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="59">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="68" package="TangoCard\PHP\SDK">
+        <name>getAvailableBalance</name>
+        <full_name>getAvailableBalance</full_name>
+        <docblock line="64">
+          <description><![CDATA[Get the available balance.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="64" name="return" description="The balance (in cents) available to the user." type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Success\PurchaseCardResponse.php" hash="026796ca7fae770eb49a34c69fba728d" package="Default">
+    <docblock line="2">
+      <description><![CDATA[PurchaseCardResponse.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Success" line="48" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\Success\SuccessResponse</extends>
+      <name>PurchaseCardResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Success\PurchaseCardResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[The successful response to a {@link TangoCard\Sdk\Request\PurchaseCard}
+request.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="53" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_referenceOrderId</name>
+        <default><![CDATA[]]></default>
+        <docblock line="50">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="50" name="var" description="number of purchase." type="\TangoCard\Sdk\Response\Success\Confirmation">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\Confirmation</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="58" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_cardToken</name>
+        <default><![CDATA[]]></default>
+        <docblock line="55">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="var" description="reference to the aforementioned purchase." type="\TangoCard\Sdk\Response\Success\Card">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\Card</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="64" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_cardNumber</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="60">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="60" name="var" description="number provided to the recipient to be used at redemption upon the www.tangocard.com site." type="\TangoCard\Sdk\Response\Success\Card">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\Card</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="70" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_cardPin</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="66">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="66" name="var" description="pin provided to the recipient used to validate provided Card number a redemption upon the www.tangocard.com site." type="\TangoCard\Sdk\Response\Success\Card">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\Card</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="77" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_claimUrl</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="72">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="72" name="var" description="is the address of a web page on the World Wide Web. This URL can only be accessed through the email you received. It is a unique URL, meaning that it cannot be duplicated or altered." type="\TangoCard\Sdk\Response\Success\It">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\It</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="85" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_challengeKey</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="79">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="79" name="var" description="on the retailer, some eGift Cards Challenge Key in order to be accessed; if that is the case you will find it next to your link or URL. You will be prompted to input your Challenge Key when you try to open your eGift Card." type="\TangoCard\Sdk\Response\Success\Depending">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\Depending</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="91" namespace="TangoCard\Sdk\Response\Success" package="Default">
+        <name>$_eventNumber</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="88">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="88" name="var" description="on the retailer," type="\TangoCard\Sdk\Response\Success\Depending">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\Depending</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="98" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="93">
+          <description><![CDATA[Construct a new PurchaseCard success type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="93" name="param" description="The parsed (JSON) object returned from the Tango Card services." type="object" variable="$responseJson">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="98">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="127" package="TangoCard\PHP\SDK">
+        <name>getReferenceOrderId</name>
+        <full_name>getReferenceOrderId</full_name>
+        <docblock line="122">
+          <description><![CDATA[Get the reference order id.]]></description>
+          <long-description><![CDATA[<p>This id can be used (by Tango Card) to
+look up the order at a later date.</p>]]></long-description>
+          <tag line="122" name="return" description="The reference order id." type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="137" package="TangoCard\PHP\SDK">
+        <name>getCardToken</name>
+        <full_name>getCardToken</full_name>
+        <docblock line="132">
+          <description><![CDATA[Get the card's token.]]></description>
+          <long-description><![CDATA[<p>This token can be used (by Tango Card) to
+look up a card at a later date.</p>]]></long-description>
+          <tag line="132" name="return" description="The card's token." type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="147" package="TangoCard\PHP\SDK">
+        <name>getCardNumber</name>
+        <full_name>getCardNumber</full_name>
+        <docblock line="142">
+          <description><![CDATA[Get the card's number (if available).]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="142" name="return" description="The card's number or null. This will only be set if the original request had tcSend set to false." type="string|null">
+            <type by_reference="false">string</type>
+            <type by_reference="false">null</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="158" package="TangoCard\PHP\SDK">
+        <name>getCardPin</name>
+        <full_name>getCardPin</full_name>
+        <docblock line="152">
+          <description><![CDATA[Get the card's pin (if available).]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="152" name="return" description="The card's pin or null. This will only be set if the original request had tcSend set to false and the card type requires a pin." type="string|null">
+            <type by_reference="false">string</type>
+            <type by_reference="false">null</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="167" package="TangoCard\PHP\SDK">
+        <name>getClaimUrl</name>
+        <full_name>getClaimUrl</full_name>
+        <docblock line="163">
+          <description><![CDATA[Get the card's claim URL (if available).]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="163" name="return" description="" type="string|\TangoCard\Sdk\Response\Success\null.">
+            <type by_reference="false">string</type>
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\null.</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="177" package="TangoCard\PHP\SDK">
+        <name>getChallengeKey</name>
+        <full_name>getChallengeKey</full_name>
+        <docblock line="173">
+          <description><![CDATA[Get the card's challenge key (if available).]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="173" name="return" description="" type="string|\TangoCard\Sdk\Response\Success\null.">
+            <type by_reference="false">string</type>
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\null.</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Response\Success" line="186" package="TangoCard\PHP\SDK">
+        <name>getEventNumber</name>
+        <full_name>getEventNumber</full_name>
+        <docblock line="182">
+          <description><![CDATA[Get the card's event number (if available).]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="182" name="return" description="" type="string|\TangoCard\Sdk\Response\Success\null.">
+            <type by_reference="false">string</type>
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\null.</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <critical line="50" code="50019">No short description for property $_referenceOrderId</critical>
+      <critical line="55" code="50019">No short description for property $_cardToken</critical>
+      <critical line="60" code="50019">No short description for property $_cardNumber</critical>
+      <critical line="66" code="50019">No short description for property $_cardPin</critical>
+      <critical line="72" code="50019">No short description for property $_claimUrl</critical>
+      <critical line="79" code="50019">No short description for property $_challengeKey</critical>
+      <critical line="88" code="50019">No short description for property $_eventNumber</critical>
+    </parse_markers>
+  </file>
+  <file path="lib\TangoCard\Sdk\Response\Success\SuccessResponse.php" hash="c1a3208493a250cd459e58e624f0d659" package="Default">
+    <docblock line="2">
+      <description><![CDATA[SuccessResponse.php, Abstract base class for all success responses]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Response\Success" line="47" package="TangoCard\PHP\SDK">
+      <extends>\TangoCard\Sdk\Response\BaseResponse</extends>
+      <name>SuccessResponse</name>
+      <full_name>\TangoCard\Sdk\Response\Success\SuccessResponse</full_name>
+      <docblock line="41">
+        <description><![CDATA[Provides the basic interface for all successful response types.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Service\ServiceProxy.php" hash="b13ac12f95b5f4e9d6f81458c6003856" package="Default">
+    <docblock line="2">
+      <description><![CDATA[ServiceProxy.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <namespace-alias name="TangoCardSdkException">TangoCard\Sdk\Common\TangoCardSdkException</namespace-alias>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Service" line="54" package="Default">
+      <extends/>
+      <name>ServiceProxy</name>
+      <full_name>\TangoCard\Sdk\Service\ServiceProxy</full_name>
+      <docblock line="49">
+        <description><![CDATA[HTTP POST connection class to Tango Card Service API environment.]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="61" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_base_url</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="56">
+          <description><![CDATA[Base URL]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="56" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="67" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_controller</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="62">
+          <description><![CDATA[Controller]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="62" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="73" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_action</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="68">
+          <description><![CDATA[Action]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="68" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="79" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_path</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="74">
+          <description><![CDATA[Full request path]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="74" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="85" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_request_json</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="80">
+          <description><![CDATA[Action request]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="80" name="var" description="Object" type="\TangoCard\Sdk\Service\JSON">
+            <type by_reference="false">\TangoCard\Sdk\Service\JSON</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="91" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_requestObject</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="86">
+          <description><![CDATA[Requesting object]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="86" name="var" description="" type="\TangoCard\Sdk\Service\BaseRequest">
+            <type by_reference="false">\TangoCard\Sdk\Service\BaseRequest</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Service" line="104" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="93">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="93" name="param" description="reference" type="\TangoCard\Sdk\Request\BaseRequest" variable="$requestObject">
+            <type by_reference="false">\TangoCard\Sdk\Request\BaseRequest</type>
+          </tag>
+          <tag line="93" name="return" description="Return true upon success, else false." type="bool">
+            <type by_reference="false">bool</type>
+          </tag>
+          <tag line="93" name="access" description="public"/>
+          <tag line="93" name="throws" description="" type="\InvalidArgumentException">
+            <type by_reference="false">\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="104">
+          <name>$requestObject</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="TangoCard\Sdk\Service" line="153" package="Default">
+        <name>mapRequest</name>
+        <full_name>mapRequest</full_name>
+        <docblock line="146">
+          <description><![CDATA[Map request by encoding JSON paramters.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="146" name="return" description="Return true upon success, else false." type="bool">
+            <type by_reference="false">bool</type>
+          </tag>
+          <tag line="146" name="access" description="protected"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="TangoCard\Sdk\Service" line="182" package="Default">
+        <name>postRequest</name>
+        <full_name>postRequest</full_name>
+        <docblock line="173">
+          <description><![CDATA[POST request to Tango Card service]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="173" name="param" description="&amp;$responseJsonEncoded reference" type="\TangoCard\Sdk\Service\JSON" variable="$responseJsonEncoded">
+            <type by_reference="false">\TangoCard\Sdk\Service\JSON</type>
+          </tag>
+          <tag line="173" name="return" description="Return true upon success, else false." type="bool">
+            <type by_reference="false">bool</type>
+          </tag>
+          <tag line="173" name="access" description="public"/>
+        </docblock>
+        <argument line="182">
+          <name>$responseJsonEncoded</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Service" line="247" package="Default">
+        <name>executeRequest</name>
+        <full_name>executeRequest</full_name>
+        <docblock line="238">
+          <description><![CDATA[Executes request upon Tango Card service]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="238" name="param" description="&amp;$responseSuccess reference" type="\TangoCard\Sdk\Service\BaseResponse" variable="$responseSuccess">
+            <type by_reference="false">\TangoCard\Sdk\Service\BaseResponse</type>
+          </tag>
+          <tag line="238" name="return" description="Return true upon success, else false." type="bool">
+            <type by_reference="false">bool</type>
+          </tag>
+          <tag line="238" name="access" description="public"/>
+        </docblock>
+        <argument line="247">
+          <name>$responseSuccess</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="protected" namespace="TangoCard\Sdk\Service" line="294" package="Default">
+        <name>throwOnError</name>
+        <full_name>throwOnError</full_name>
+        <docblock line="285">
+          <description><![CDATA[Throw TangoCardServiceException if Tango Card service indicates failure.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="285" name="param" description="from Tango Card service" type="\TangoCard\Sdk\Service\JSON" variable="$responseJson">
+            <type by_reference="false">\TangoCard\Sdk\Service\JSON</type>
+          </tag>
+          <tag line="285" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+          <tag line="285" name="access" description="protected"/>
+        </docblock>
+        <argument line="294">
+          <name>$responseJson</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Service\TangoCardServiceApiEnum.php" hash="053ab68ce5d95950c96279dfba6c21fc" package="Default">
+    <docblock line="2">
+      <description><![CDATA[TangoCardServiceApiEnum.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Service" line="47" package="TangoCard\PHP\SDK">
+      <extends/>
+      <name>TangoCardServiceApiEnum</name>
+      <full_name>\TangoCard\Sdk\Service\TangoCardServiceApiEnum</full_name>
+      <docblock line="41">
+        <description><![CDATA[Enumeration of possible endpoint environments that provide Tango Card Service API.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <constant namespace="TangoCard\Sdk\Service" line="54" package="TangoCard\PHP\SDK">
+        <name>UNDEFINED</name>
+        <full_name>UNDEFINED</full_name>
+        <value><![CDATA[0]]></value>
+        <docblock line="49">
+          <description><![CDATA[Undefined service]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Service" line="61" package="TangoCard\PHP\SDK">
+        <name>INTEGRATION</name>
+        <full_name>INTEGRATION</full_name>
+        <value><![CDATA[1]]></value>
+        <docblock line="56">
+          <description><![CDATA[Integration Tango Card Service API.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="56" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Service" line="68" package="TangoCard\PHP\SDK">
+        <name>PRODUCTION</name>
+        <full_name>PRODUCTION</full_name>
+        <value><![CDATA[2]]></value>
+        <docblock line="63">
+          <description><![CDATA[Production Tango Card Service API.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="63" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <constant namespace="TangoCard\Sdk\Service" line="76" package="TangoCard\PHP\SDK">
+        <name>QA</name>
+        <full_name>QA</full_name>
+        <value><![CDATA[3]]></value>
+        <docblock line="71">
+          <description><![CDATA[Production Tango Card Service API.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="71" name="var" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </constant>
+      <property final="false" static="true" visibility="private" line="83" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_arrayToString</name>
+        <default><![CDATA[array(\TangoCard\Sdk\Service\TangoCardServiceApiEnum::UNDEFINED => "UNDEFINED", \TangoCard\Sdk\Service\TangoCardServiceApiEnum::INTEGRATION => "INTEGRATION", \TangoCard\Sdk\Service\TangoCardServiceApiEnum::PRODUCTION => "PRODUCTION", \TangoCard\Sdk\Service\TangoCardServiceApiEnum::QA => "QA")]]></default>
+        <docblock line="78">
+          <description><![CDATA[TangoCard\Sdk\Service\TangoCardServiceApiEnum to String]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="78" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="true" visibility="private" line="96" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_arrayToEnum</name>
+        <default><![CDATA[array("UNDEFINED" => \TangoCard\Sdk\Service\TangoCardServiceApiEnum::UNDEFINED, "INTEGRATION" => \TangoCard\Sdk\Service\TangoCardServiceApiEnum::INTEGRATION, "PRODUCTION" => \TangoCard\Sdk\Service\TangoCardServiceApiEnum::PRODUCTION, "QA" => \TangoCard\Sdk\Service\TangoCardServiceApiEnum::QA)]]></default>
+        <docblock line="91">
+          <description><![CDATA[String to TangoCard\Sdk\Service\TangoCardServiceApiEnum]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="91" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Service" line="109" package="TangoCard\PHP\SDK">
+        <name>isValid</name>
+        <full_name>isValid</full_name>
+        <docblock line="104">
+          <description><![CDATA[Determine if enum is a valid service api environment type]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="104" name="param" description="" type="\TangoCard\Sdk\Service\unknown_type" variable="$enumServiceType">
+            <type by_reference="false">\TangoCard\Sdk\Service\unknown_type</type>
+          </tag>
+        </docblock>
+        <argument line="109">
+          <name>$enumServiceType</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Service" line="119" package="TangoCard\PHP\SDK">
+        <name>toString</name>
+        <full_name>toString</full_name>
+        <docblock line="113">
+          <description><![CDATA[String value of response type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="113" name="param" description="" type="\TangoCard\Sdk\Service\TangoCard\Sdk\Service\TangoCardServiceApiEnum" variable="$enumServiceType">
+            <type by_reference="false">\TangoCard\Sdk\Service\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+          <tag line="113" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="119">
+          <name>$enumServiceType</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk\Service" line="135" package="TangoCard\PHP\SDK">
+        <name>toEnum</name>
+        <full_name>toEnum</full_name>
+        <docblock line="129">
+          <description><![CDATA[Enum value of response type.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="129" name="param" description="" type="string" variable="$strServiceType">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="129" name="throws" description="" type="\TangoCard\Sdk\Common\TangoCardSdkException">
+            <type by_reference="false">\TangoCard\Sdk\Common\TangoCardSdkException</type>
+          </tag>
+        </docblock>
+        <argument line="135">
+          <name>$strServiceType</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\Service\TangoCardServiceException.php" hash="86db77230e088a611f538a0b25f34694" package="Default">
+    <docblock line="2">
+      <description><![CDATA[TangoCardServiceException.php]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk\Service" line="47" package="TangoCard\PHP\SDK">
+      <extends>\Exception</extends>
+      <name>TangoCardServiceException</name>
+      <full_name>\TangoCard\Sdk\Service\TangoCardServiceException</full_name>
+      <docblock line="41">
+        <description><![CDATA[TangoCardServiceException is thrown when the Tango Card Service API return a Failure Response for a given Request.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="41" name="package" description="TangoCard_PHP_SDK"/>
+        <tag line="41" name="access" description="public"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="54" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_responseType</name>
+        <default><![CDATA['UNDEFINED']]></default>
+        <docblock line="49">
+          <description><![CDATA[Failure response type]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="60" namespace="TangoCard\Sdk\Service" package="Default">
+        <name>$_response</name>
+        <default><![CDATA[null]]></default>
+        <docblock line="55">
+          <description><![CDATA[Failure response object]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="var" description="" type="\TangoCard\Sdk\Response\Failure\FailureResponse">
+            <type by_reference="false">\TangoCard\Sdk\Response\Failure\FailureResponse</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Service" line="66" package="TangoCard\PHP\SDK">
+        <name>getResponseType</name>
+        <full_name>getResponseType</full_name>
+        <docblock line="62">
+          <description><![CDATA[Get service response type]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Service" line="75" package="TangoCard\PHP\SDK">
+        <name>getResponse</name>
+        <full_name>getResponse</full_name>
+        <docblock line="71">
+          <description><![CDATA[Get service response]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk\Service" line="87" package="TangoCard\PHP\SDK">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="80">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="80" name="param" description="" type="\TangoCard\Sdk\Response\ServiceResponseEnum" variable="$responseType">
+            <type by_reference="false">\TangoCard\Sdk\Response\ServiceResponseEnum</type>
+          </tag>
+          <tag line="80" name="param" description="" type="\TangoCard\Sdk\Response\Failure\FailureResponse" variable="$response">
+            <type by_reference="false">\TangoCard\Sdk\Response\Failure\FailureResponse</type>
+          </tag>
+          <tag line="80" name="param" description="" type="string" variable="$message">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="87">
+          <name>$responseType</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="87">
+          <name>$response</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="87">
+          <name>$message</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCard\Sdk\TangoCardServiceApi.php" hash="7d30b94f95fa97012620ee551f4a71c0" package="Default">
+    <docblock line="2">
+      <description><![CDATA[TangoCardServiceApi.php, wrapper class for accessing the Tango Card Service API
+controller and its available actions.]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk" line="47" package="Default">
+      <extends/>
+      <name>TangoCardServiceApi</name>
+      <full_name>\TangoCard\Sdk\TangoCardServiceApi</full_name>
+      <docblock line="42">
+        <description><![CDATA[Tango Card Service API access class]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="TangoCard\Sdk" line="53" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="49">
+          <description><![CDATA[Constructor that prevents a default instance of this class from being created.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk" line="61" package="Default">
+        <name>Version</name>
+        <full_name>Version</full_name>
+        <docblock line="55">
+          <description><![CDATA[Get the current version of this SDK from configuration file]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="55" name="return" description="version number" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk" line="86" package="Default">
+        <name>GetAvailableBalance</name>
+        <full_name>GetAvailableBalance</full_name>
+        <docblock line="70">
+          <description><![CDATA[Get the available Tango Card account balance for provided authentication (username and password)]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="70" name="param" description="" type="\TangoCard\Sdk\Service\TangoCardServiceApiEnum" variable="$enumTangoCardServiceApi">
+            <type by_reference="false">\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+          <tag line="70" name="param" description="The username to access User's registered Tango Card account" type="string" variable="$username">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="70" name="param" description="The password to access User's registered Tango Card account" type="string" variable="$password">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="70" name="param" description="" type="\TangoCard\Sdk\Response\Success\GetAvailableBalanceResponse" variable="$responseGetAvailableBalance">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\GetAvailableBalanceResponse</type>
+          </tag>
+          <tag line="70" name="return" description="Returns true upon success, else false." type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+          <tag line="70" name="throws" description="" type="\TangoCard\Sdk\TangoCardServiceException">
+            <type by_reference="false">\TangoCard\Sdk\TangoCardServiceException</type>
+          </tag>
+          <tag line="70" name="throws" description="" type="\TangoCard\Sdk\TangoCardSdkException">
+            <type by_reference="false">\TangoCard\Sdk\TangoCardSdkException</type>
+          </tag>
+          <tag line="70" name="throws" description="" type="\TangoCard\Sdk\InvalidArgumentException">
+            <type by_reference="false">\TangoCard\Sdk\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="87">
+          <name>$enumTangoCardServiceApi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="88">
+          <name>$username</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="89">
+          <name>$password</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="90">
+          <name>$responseGetAvailableBalance</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="TangoCard\Sdk" line="152" package="Default">
+        <name>PurchaseCard</name>
+        <full_name>PurchaseCard</full_name>
+        <docblock line="111">
+          <description><![CDATA[Based upon available funds within authenticated user's Tango Card account,
+purchase a gift card for a specific recipient.]]></description>
+          <long-description><![CDATA[<p>How it is delivered is determined
+by how parameter 'tcSend' is set; if 'true', then the Tango Card Service will email
+a digital gift card to recipient's provided email address 'recipientEmail'; else
+user of this SDK is responsible.</p>
+
+<p>Upon successful purchase, Tango Card Service will respond with confirmation information.</p>]]></long-description>
+          <tag line="111" name="param" description="" type="\TangoCard\Sdk\Service\TangoCardServiceApiEnum" variable="$enumTangoCardServiceApi">
+            <type by_reference="false">\TangoCard\Sdk\Service\TangoCardServiceApiEnum</type>
+          </tag>
+          <tag line="111" name="param" description="The username to access User's registered Tango Card account" type="string" variable="$username">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="The password to access User's registered Tango Card account" type="string" variable="$password">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="The SKU of the card to purchase." type="string" variable="$cardSku">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="The value of the card to buy in cents (example 500 = $5.00)." type="int" variable="$cardValue">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="111" name="param" description="Determines if Tango Card Service will send an email with gift card information to recipient. Email gift card and return the card's details (true), or just return the card's details (false)." type="bool" variable="$tcSend">
+            <type by_reference="false">bool</type>
+          </tag>
+          <tag line="111" name="param" description="The name of the recipient. Only necessary if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$recipientName">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="The email address of the recipient. Only necessary if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$recipientEmail">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="The gift message to send to the recipient. Only necessary if tcSend = true. If tcSend = false, this input will be ignored." type="string" variable="$giftMessage">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="The name of the person giving the gift. Optional if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$giftFrom">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="The Company identifier for which Email Template to use when sending Gift Card. Optional if tcSend = true. If tcSend = false, then this input will be ignored." type="string" variable="$companyIdentifier">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="111" name="param" description="" type="\TangoCard\Sdk\Response\Success\PurchaseCardResponse" variable="$responsePurchaseCard">
+            <type by_reference="false">\TangoCard\Sdk\Response\Success\PurchaseCardResponse</type>
+          </tag>
+          <tag line="111" name="return" description="Returns true upon success, else false." type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+          <tag line="111" name="throws" description="" type="\TangoCard\Sdk\TangoCardServiceException">
+            <type by_reference="false">\TangoCard\Sdk\TangoCardServiceException</type>
+          </tag>
+          <tag line="111" name="throws" description="" type="\TangoCard\Sdk\TangoCardSdkException">
+            <type by_reference="false">\TangoCard\Sdk\TangoCardSdkException</type>
+          </tag>
+          <tag line="111" name="throws" description="" type="\TangoCard\Sdk\InvalidArgumentException">
+            <type by_reference="false">\TangoCard\Sdk\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="153">
+          <name>$enumTangoCardServiceApi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="154">
+          <name>$username</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="155">
+          <name>$password</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="156">
+          <name>$cardSku</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="157">
+          <name>$cardValue</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="158">
+          <name>$tcSend</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="159">
+          <name>$recipientName</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="160">
+          <name>$recipientEmail</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="161">
+          <name>$giftMessage</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="162">
+          <name>$giftFrom</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="163">
+          <name>$companyIdentifier</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="164">
+          <name>$responsePurchaseCard</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="lib\TangoCardSdkAutoloader.php" hash="9b3c473cb7e23b35d88f39958a484722" package="Default">
+    <docblock line="2">
+      <description><![CDATA[TangoCardSdkAutoloader.php, autoloading class file locations hierarchy by supplying it with a function to run.]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <include line="82" type="Include Once" package="Default">
+      <name/>
+    </include>
+    <class final="false" abstract="false" namespace="TangoCard\Sdk" line="48" package="Default">
+      <extends/>
+      <name>TangoCardSdkAutoloader</name>
+      <full_name>\TangoCard\Sdk\TangoCardSdkAutoloader</full_name>
+      <docblock line="43">
+        <description><![CDATA[Tango Card SDK Autoloader Class]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="TangoCard\Sdk" line="57" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="50">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[<p>When using spl_autoload_register() with class methods, it might seem that it can use only public methods, though it can use private/protected methods as well, if registered from inside the class.</p>]]></long-description>
+          <tag line="50" name="access" description="public"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="TangoCard\Sdk" line="68" package="Default">
+        <name>tangocard_sdk_autoload</name>
+        <full_name>tangocard_sdk_autoload</full_name>
+        <docblock line="61">
+          <description><![CDATA[This function will handle the autoloading of the TangoCard namespaced
+classes.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="61" name="param" description="The name of the class (with prepended namespace) to load." type="string" variable="$className">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="61" name="access" description="private"/>
+        </docblock>
+        <argument line="68">
+          <name>$className</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="unittests\UnitTest_GetAvailableBalance.php" hash="ddb03605466d0acf98849c532eef4980" package="Default">
+    <docblock line="2">
+      <description><![CDATA[UnitTest_GetAvailableBalance.php, Tango Card SDK PHPUnit Test]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <include line="39" type="Require Once" package="Unittests">
+      <name/>
+      <docblock line="7">
+        <description><![CDATA[Copyright (c) 2013 Tango Card, Inc
+All rights reserved.]]></description>
+        <long-description><![CDATA[<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p>
+
+<p>PHP Version 5.3</p>]]></long-description>
+        <tag line="7" name="category" description="TangoCard"/>
+        <tag line="7" name="package" description="Unittests"/>
+        <tag line="7" name="version" description="$Id: UnitTest_GetAvailableBalance.php 2013-03-08 12:00:00 PST $"/>
+        <tag line="7" name="copyright" description="Copyright (c) 2013, Tango Card (http://www.tangocard.com)"/>
+      </docblock>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="46" package="Default">
+      <extends>\PHPUnit_Framework_TestCase</extends>
+      <name>UnitTest_GetAvailableBalance</name>
+      <full_name>\UnitTest_GetAvailableBalance</full_name>
+      <docblock line="41">
+        <description><![CDATA[PHPUnit test for accessing Tango Card Service API's Version2/GetAvailableBalance() action.]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <property final="false" static="false" visibility="protected" line="51" namespace="global" package="Default">
+        <name>$app_config</name>
+        <default><![CDATA[]]></default>
+        <docblock line="48">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="48" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="58" package="Default">
+        <name>setUp</name>
+        <full_name>setUp</full_name>
+        <docblock line="53">
+          <description><![CDATA[Setup unit tests by parsing application configuration file.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="53" name="throws" description="" type="\TangoCardSdkException">
+            <type by_reference="false">\TangoCardSdkException</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="74" package="Default">
+        <name>test_AppConfig</name>
+        <full_name>test_AppConfig</full_name>
+        <docblock line="70">
+          <description><![CDATA[Test access to application configuration file.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="98" package="Default">
+        <name>test_GetAvailableBalance</name>
+        <full_name>test_GetAvailableBalance</full_name>
+        <docblock line="94">
+          <description><![CDATA[Test GetAvailableBalance using AppConfig settings]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="134" package="Default">
+        <name>test_GetAvailableBalance_InvalidCredentials</name>
+        <full_name>test_GetAvailableBalance_InvalidCredentials</full_name>
+        <docblock line="128">
+          <description><![CDATA[Unit test to assure failure when trying to get available
+account balance with invalid authentication credentials]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="unittests\UnitTest_PurchaseCard.php" hash="b89e1ac7399fc3ce89e7873aa837005d" package="Default">
+    <docblock line="2">
+      <description><![CDATA[UnitTest_PurchaseCard.php, Tango Card SDK PHPUnit Test]]></description>
+      <long-description><![CDATA[]]></long-description>
+    </docblock>
+    <include line="39" type="Require Once" package="Unittests">
+      <name/>
+      <docblock line="7">
+        <description><![CDATA[Copyright (c) 2013 Tango Card, Inc
+All rights reserved.]]></description>
+        <long-description><![CDATA[<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p>
+
+<p>PHP Version 5.3</p>]]></long-description>
+        <tag line="7" name="category" description="TangoCard"/>
+        <tag line="7" name="package" description="Unittests"/>
+        <tag line="7" name="version" description="$Id: UnitTest_PurchaseCard.php 2013-03-08 12:00:00 PST $"/>
+        <tag line="7" name="copyright" description="Copyright (c) 2013, Tango Card (http://www.tangocard.com)"/>
+      </docblock>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="46" package="Default">
+      <extends>\PHPUnit_Framework_TestCase</extends>
+      <name>UnitTest_PurchaseCard</name>
+      <full_name>\UnitTest_PurchaseCard</full_name>
+      <docblock line="41">
+        <description><![CDATA[PHPUnit test for accessing Tango Card Service API's Version2/PurchaseCard() action.]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <property final="false" static="false" visibility="protected" line="51" namespace="global" package="Default">
+        <name>$app_config</name>
+        <default><![CDATA[]]></default>
+        <docblock line="48">
+          <description><![CDATA[]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="48" name="ignore" description=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="58" package="Default">
+        <name>setUp</name>
+        <full_name>setUp</full_name>
+        <docblock line="53">
+          <description><![CDATA[Setup unit tests by parsing application configuration file.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="53" name="throws" description="" type="\TangoCardSdkException">
+            <type by_reference="false">\TangoCardSdkException</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="74" package="Default">
+        <name>test_AppConfig</name>
+        <full_name>test_AppConfig</full_name>
+        <docblock line="70">
+          <description><![CDATA[Test access to application configuration file.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="95" package="Default">
+        <name>test_PurchaseCard_with_Delivery</name>
+        <full_name>test_PurchaseCard_with_Delivery</full_name>
+        <docblock line="88">
+          <description><![CDATA[Unit Test for puchasing the Tango Card and requesting
+ the Tango Card Service to send digital card to provided
+ email address.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="181" package="Default">
+        <name>test_PurchaseCard_noSend</name>
+        <full_name>test_PurchaseCard_noSend</full_name>
+        <docblock line="175">
+          <description><![CDATA[Unit Test for puchasing the Tango Card and not requesting
+ the Tango Card Service to send digital card.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="268" package="Default">
+        <name>test_PurchaseCard_InvalidCredentials</name>
+        <full_name>test_PurchaseCard_InvalidCredentials</full_name>
+        <docblock line="262">
+          <description><![CDATA[Unit test to assure failure when trying to purchase a card
+ with invalid authentication credentials]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="321" package="Default">
+        <name>test_PurchaseCard_InsufficientFunds</name>
+        <full_name>test_PurchaseCard_InsufficientFunds</full_name>
+        <docblock line="315">
+          <description><![CDATA[Unit test to assure failure when trying to purchase a card
+ from an account with insufficient funds.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="374" package="Default">
+        <name>test_PurchaseCard_InvalidInput_Sku</name>
+        <full_name>test_PurchaseCard_InvalidInput_Sku</full_name>
+        <docblock line="368">
+          <description><![CDATA[Unit test to assure failure when purchasing a gift card
+ with an invalid card sku.]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="TangoCard" full_name="TangoCard">
+    <package name="PHP" full_name="TangoCard\PHP">
+      <package name="SDK" full_name="TangoCard\PHP\SDK"/>
+    </package>
+  </package>
+  <package name="Unittests" full_name="Unittests"/>
+  <namespace name="TangoCard" full_name="TangoCard">
+    <namespace name="Sdk" full_name="TangoCard\Sdk">
+      <namespace name="Common" full_name="TangoCard\Sdk\Common"/>
+      <namespace name="Example" full_name="TangoCard\Sdk\Example"/>
+      <namespace name="Request" full_name="TangoCard\Sdk\Request"/>
+      <namespace name="Response" full_name="TangoCard\Sdk\Response">
+        <namespace name="Failure" full_name="TangoCard\Sdk\Response\Failure"/>
+        <namespace name="Success" full_name="TangoCard\Sdk\Response\Success"/>
+      </namespace>
+      <namespace name="Service" full_name="TangoCard\Sdk\Service"/>
+    </namespace>
+  </namespace>
+  <namespace name="global" full_name="global"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>

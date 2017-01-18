@@ -1,0 +1,202 @@
+<!DOCTYPE html><html xmlns:date="http://exslt.org/dates-and-times" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>Tango Card PHP SDK » \TangoCard\Sdk\Service\TangoCardServiceApiEnum</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">Tango Card PHP SDK</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Namespaces</a></li>
+<li><a href="../namespaces/TangoCard.html"><i class="icon-th"></i> TangoCard</a></li>
+<li><a href="../namespaces/global.html"><i class="icon-th"></i> global</a></li>
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/TangoCard.html"><i class="icon-folder-open"></i> TangoCard</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">9</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods</li>
+<li class="method public "><a href="#isValid" title="isValid :: Determine if enum is a valid service api environment type"><span class="description">Determine if enum is a valid service api environment type</span><pre>isValid()</pre></a></li>
+<li class="method public "><a href="#toEnum" title="toEnum :: Enum value of response type."><span class="description">Enum value of response type.</span><pre>toEnum()</pre></a></li>
+<li class="method public "><a href="#toString" title="toString :: String value of response type."><span class="description">String value of response type.</span><pre>toString()</pre></a></li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties</li>
+<li class="nav-header private">» Private</li>
+<li class="property private "><a href="#%24_arrayToEnum" title="$_arrayToEnum :: String to TangoCard\Sdk\Service\TangoCardServiceApiEnum"><span class="description">String to TangoCard\Sdk\Service\TangoCardServiceApiEnum</span><pre>$_arrayToEnum</pre></a></li>
+<li class="property private "><a href="#%24_arrayToString" title="$_arrayToString :: TangoCard\Sdk\Service\TangoCardServiceApiEnum to String"><span class="description">TangoCard\Sdk\Service\TangoCardServiceApiEnum to String</span><pre>$_arrayToString</pre></a></li>
+<li class="nav-header">
+<i class="icon-custom icon-constant"></i> Constants</li>
+<li class="constant  "><a href="#INTEGRATION" title="INTEGRATION :: Integration Tango Card Service API."><span class="description">Integration Tango Card Service API.</span><pre>INTEGRATION</pre></a></li>
+<li class="constant  "><a href="#PRODUCTION" title="PRODUCTION :: Production Tango Card Service API."><span class="description">Production Tango Card Service API.</span><pre>PRODUCTION</pre></a></li>
+<li class="constant  "><a href="#QA" title="QA :: Production Tango Card Service API."><span class="description">Production Tango Card Service API.</span><pre>QA</pre></a></li>
+<li class="constant  "><a href="#UNDEFINED" title="UNDEFINED :: Undefined service"><span class="description">Undefined service</span><pre>UNDEFINED</pre></a></li>
+</ul>
+</div>
+<div class="span8">
+<a name="%5CTangoCard%5CSdk%5CService%5CTangoCardServiceApiEnum" id="\TangoCard\Sdk\Service\TangoCardServiceApiEnum"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/TangoCard.html">TangoCard</a></li>
+<span class="divider">\</span><li><a href="../namespaces/TangoCard.Sdk.html">Sdk</a></li>
+<span class="divider">\</span><li><a href="../namespaces/TangoCard.Sdk.Service.html">Service</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/TangoCard.Sdk.Service.TangoCardServiceApiEnum.html">TangoCardServiceApiEnum</a>
+</li>
+</ul>
+<div href="../classes/TangoCard.Sdk.Service.TangoCardServiceApiEnum.html" class="element class">
+<p class="short_description">Enumeration of possible endpoint environments that provide Tango Card Service API.</p>
+<div class="details">
+<p class="long_description"></p>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/TangoCard.PHP.SDK.html">TangoCard_PHP_SDK</a></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a name="isValid" id="isValid"></a><div class="element clickable method public isValid" data-toggle="collapse" data-target=".isValid .collapse">
+<h2>Determine if enum is a valid service api environment type</h2>
+<pre>isValid(\TangoCard\Sdk\Service\unknown_type $enumServiceType) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$enumServiceType</h4>
+<code>\TangoCard\Sdk\Service\unknown_type</code>
+</div>
+</div></div>
+</div>
+<a name="toEnum" id="toEnum"></a><div class="element clickable method public toEnum" data-toggle="collapse" data-target=".toEnum .collapse">
+<h2>Enum value of response type.</h2>
+<pre>toEnum(string $strServiceType) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$strServiceType</h4>
+<code>string</code>
+</div>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code><a href="../classes/TangoCard.Sdk.Common.TangoCardSdkException.html">\TangoCard\Sdk\Common\TangoCardSdkException</a></code></th>
+<td></td>
+</tr></table>
+</div></div>
+</div>
+<a name="toString" id="toString"></a><div class="element clickable method public toString" data-toggle="collapse" data-target=".toString .collapse">
+<h2>String value of response type.</h2>
+<pre>toString(\TangoCard\Sdk\Service\TangoCard\Sdk\Service\TangoCardServiceApiEnum $enumServiceType) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$enumServiceType</h4>
+<code>\TangoCard\Sdk\Service\TangoCard\Sdk\Service\TangoCardServiceApiEnum</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a name="%24_arrayToEnum" id="$_arrayToEnum"> </a><div class="element clickable property private $_arrayToEnum" data-toggle="collapse" data-target=".$_arrayToEnum .collapse">
+<h2>String to TangoCard\Sdk\Service\TangoCardServiceApiEnum</h2>
+<pre>$_arrayToEnum : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="%24_arrayToString" id="$_arrayToString"> </a><div class="element clickable property private $_arrayToString" data-toggle="collapse" data-target=".$_arrayToString .collapse">
+<h2>TangoCard\Sdk\Service\TangoCardServiceApiEnum to String</h2>
+<pre>$_arrayToString : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<h3>
+<i class="icon-custom icon-constant"></i> Constants</h3>
+<a name="INTEGRATION" id="INTEGRATION"> </a><div class="element clickable constant  INTEGRATION" data-toggle="collapse" data-target=".INTEGRATION .collapse">
+<h2>Integration Tango Card Service API.</h2>
+<pre>INTEGRATION : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="PRODUCTION" id="PRODUCTION"> </a><div class="element clickable constant  PRODUCTION" data-toggle="collapse" data-target=".PRODUCTION .collapse">
+<h2>Production Tango Card Service API.</h2>
+<pre>PRODUCTION : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="QA" id="QA"> </a><div class="element clickable constant  QA" data-toggle="collapse" data-target=".QA .collapse">
+<h2>Production Tango Card Service API.</h2>
+<pre>QA : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="UNDEFINED" id="UNDEFINED"> </a><div class="element clickable constant  UNDEFINED" data-toggle="collapse" data-target=".UNDEFINED .collapse">
+<h2>Undefined service</h2>
+<pre>UNDEFINED : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a8</a> and<br>
+            generated on 2013-03-08T11:54:14-08:00.<br></footer></div>
+</div>
+</body>
+</html>

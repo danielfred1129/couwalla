@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CardManager getAllGiftCards]:CardManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[tCardDirectories count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapOverlayView viewDidLoad]:MapOverlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mStoreName.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

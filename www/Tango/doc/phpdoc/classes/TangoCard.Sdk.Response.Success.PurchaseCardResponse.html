@@ -1,0 +1,261 @@
+<!DOCTYPE html><html xmlns:date="http://exslt.org/dates-and-times" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>Tango Card PHP SDK » \TangoCard\Sdk\Response\Success\PurchaseCardResponse</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">Tango Card PHP SDK</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Namespaces</a></li>
+<li><a href="../namespaces/TangoCard.html"><i class="icon-th"></i> TangoCard</a></li>
+<li><a href="../namespaces/global.html"><i class="icon-th"></i> global</a></li>
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/TangoCard.html"><i class="icon-folder-open"></i> TangoCard</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">9</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods</li>
+<li class="method public "><a href="#__construct" title="__construct :: Construct a new PurchaseCard success type."><span class="description">Construct a new PurchaseCard success type.</span><pre>__construct()</pre></a></li>
+<li class="method public "><a href="#getCardNumber" title="getCardNumber :: Get the card's number (if available)."><span class="description">Get the card's number (if available).</span><pre>getCardNumber()</pre></a></li>
+<li class="method public "><a href="#getCardPin" title="getCardPin :: Get the card's pin (if available)."><span class="description">Get the card's pin (if available).</span><pre>getCardPin()</pre></a></li>
+<li class="method public "><a href="#getCardToken" title="getCardToken :: Get the card's token."><span class="description">Get the card's token.</span><pre>getCardToken()</pre></a></li>
+<li class="method public "><a href="#getChallengeKey" title="getChallengeKey :: Get the card's challenge key (if available)."><span class="description">Get the card's challenge key (if available).</span><pre>getChallengeKey()</pre></a></li>
+<li class="method public "><a href="#getClaimUrl" title="getClaimUrl :: Get the card's claim URL (if available)."><span class="description">Get the card's claim URL (if available).</span><pre>getClaimUrl()</pre></a></li>
+<li class="method public "><a href="#getEventNumber" title="getEventNumber :: Get the card's event number (if available)."><span class="description">Get the card's event number (if available).</span><pre>getEventNumber()</pre></a></li>
+<li class="method public "><a href="#getReferenceOrderId" title="getReferenceOrderId :: Get the reference order id."><span class="description">Get the reference order id.</span><pre>getReferenceOrderId()</pre></a></li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties</li>
+<li class="nav-header private">» Private</li>
+<li class="property private "><a href="#%24_cardNumber" title="$_cardNumber :: "><span class="description">&lt;p&gt;number provided to the recipient to be used at redemption upon the www.tangocard.com site.&lt;/p&gt;</span><pre>$_cardNumber</pre></a></li>
+<li class="property private "><a href="#%24_cardPin" title="$_cardPin :: "><span class="description">&lt;p&gt;pin provided to the recipient used to validate provided Card number a redemption upon the www.tangocard.com site.&lt;/p&gt;</span><pre>$_cardPin</pre></a></li>
+<li class="property private "><a href="#%24_cardToken" title="$_cardToken :: "><span class="description">&lt;p&gt;reference to the aforementioned purchase.&lt;/p&gt;</span><pre>$_cardToken</pre></a></li>
+<li class="property private "><a href="#%24_challengeKey" title="$_challengeKey :: "><span class="description">&lt;p&gt;on the retailer, some eGift Cards Challenge Key in order to be accessed; if that is the case you will find it next to your link or URL. You will be prompted to input your Challenge Key when you try to open your eGift Card.&lt;/p&gt;</span><pre>$_challengeKey</pre></a></li>
+<li class="property private "><a href="#%24_claimUrl" title="$_claimUrl :: "><span class="description">&lt;p&gt;is the address of a web page on the World Wide Web. This URL can only be accessed through the email you received. It is a unique URL, meaning that it cannot be duplicated or altered.&lt;/p&gt;</span><pre>$_claimUrl</pre></a></li>
+<li class="property private "><a href="#%24_eventNumber" title="$_eventNumber :: "><span class="description">&lt;p&gt;on the retailer,&lt;/p&gt;</span><pre>$_eventNumber</pre></a></li>
+<li class="property private "><a href="#%24_referenceOrderId" title="$_referenceOrderId :: "><span class="description">&lt;p&gt;number of purchase.&lt;/p&gt;</span><pre>$_referenceOrderId</pre></a></li>
+</ul>
+</div>
+<div class="span8">
+<a name="%5CTangoCard%5CSdk%5CResponse%5CSuccess%5CPurchaseCardResponse" id="\TangoCard\Sdk\Response\Success\PurchaseCardResponse"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/TangoCard.html">TangoCard</a></li>
+<span class="divider">\</span><li><a href="../namespaces/TangoCard.Sdk.html">Sdk</a></li>
+<span class="divider">\</span><li><a href="../namespaces/TangoCard.Sdk.Response.html">Response</a></li>
+<span class="divider">\</span><li><a href="../namespaces/TangoCard.Sdk.Response.Success.html">Success</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/TangoCard.Sdk.Response.Success.PurchaseCardResponse.html">PurchaseCardResponse</a>
+</li>
+</ul>
+<div href="../classes/TangoCard.Sdk.Response.Success.PurchaseCardResponse.html" class="element class">
+<p class="short_description">The successful response to a {@link TangoCard\Sdk\Request\PurchaseCard}
+request.</p>
+<div class="details">
+<p class="long_description"></p>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/TangoCard.PHP.SDK.html">TangoCard_PHP_SDK</a></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a name="__construct" id="__construct"></a><div class="element clickable method public __construct" data-toggle="collapse" data-target=".__construct .collapse">
+<h2>Construct a new PurchaseCard success type.</h2>
+<pre>__construct(object $responseJson) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$responseJson</h4>
+<code>object</code><p>The parsed (JSON) object returned from the Tango Card services.</p>
+</div>
+</div></div>
+</div>
+<a name="getCardNumber" id="getCardNumber"></a><div class="element clickable method public getCardNumber" data-toggle="collapse" data-target=".getCardNumber .collapse">
+<h2>Get the card's number (if available).</h2>
+<pre>getCardNumber() : string | null</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code><code>null</code>The card's number or null. This will only be set if the original request had tcSend set to false.</div>
+</div></div>
+</div>
+<a name="getCardPin" id="getCardPin"></a><div class="element clickable method public getCardPin" data-toggle="collapse" data-target=".getCardPin .collapse">
+<h2>Get the card's pin (if available).</h2>
+<pre>getCardPin() : string | null</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code><code>null</code>The card's pin or null. This will only be set if the original request had tcSend set to false and the card type requires a pin.</div>
+</div></div>
+</div>
+<a name="getCardToken" id="getCardToken"></a><div class="element clickable method public getCardToken" data-toggle="collapse" data-target=".getCardToken .collapse">
+<h2>Get the card's token.</h2>
+<pre>getCardToken() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"><p>This token can be used (by Tango Card) to
+look up a card at a later date.</p></p>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>The card's token.</div>
+</div></div>
+</div>
+<a name="getChallengeKey" id="getChallengeKey"></a><div class="element clickable method public getChallengeKey" data-toggle="collapse" data-target=".getChallengeKey .collapse">
+<h2>Get the card's challenge key (if available).</h2>
+<pre>getChallengeKey() : string | \TangoCard\Sdk\Response\Success\null.</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code><code>\TangoCard\Sdk\Response\Success\null.</code>
+</div>
+</div></div>
+</div>
+<a name="getClaimUrl" id="getClaimUrl"></a><div class="element clickable method public getClaimUrl" data-toggle="collapse" data-target=".getClaimUrl .collapse">
+<h2>Get the card's claim URL (if available).</h2>
+<pre>getClaimUrl() : string | \TangoCard\Sdk\Response\Success\null.</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code><code>\TangoCard\Sdk\Response\Success\null.</code>
+</div>
+</div></div>
+</div>
+<a name="getEventNumber" id="getEventNumber"></a><div class="element clickable method public getEventNumber" data-toggle="collapse" data-target=".getEventNumber .collapse">
+<h2>Get the card's event number (if available).</h2>
+<pre>getEventNumber() : string | \TangoCard\Sdk\Response\Success\null.</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code><code>\TangoCard\Sdk\Response\Success\null.</code>
+</div>
+</div></div>
+</div>
+<a name="getReferenceOrderId" id="getReferenceOrderId"></a><div class="element clickable method public getReferenceOrderId" data-toggle="collapse" data-target=".getReferenceOrderId .collapse">
+<h2>Get the reference order id.</h2>
+<pre>getReferenceOrderId() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"><p>This id can be used (by Tango Card) to
+look up the order at a later date.</p></p>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>The reference order id.</div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a name="%24_cardNumber" id="$_cardNumber"> </a><div class="element clickable property private $_cardNumber" data-toggle="collapse" data-target=".$_cardNumber .collapse">
+<h2>&lt;p&gt;number provided to the recipient to be used at redemption upon the www.tangocard.com site.&lt;/p&gt;</h2>
+<pre>$_cardNumber : \TangoCard\Sdk\Response\Success\Card</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="%24_cardPin" id="$_cardPin"> </a><div class="element clickable property private $_cardPin" data-toggle="collapse" data-target=".$_cardPin .collapse">
+<h2>&lt;p&gt;pin provided to the recipient used to validate provided Card number a redemption upon the www.tangocard.com site.&lt;/p&gt;</h2>
+<pre>$_cardPin : \TangoCard\Sdk\Response\Success\Card</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="%24_cardToken" id="$_cardToken"> </a><div class="element clickable property private $_cardToken" data-toggle="collapse" data-target=".$_cardToken .collapse">
+<h2>&lt;p&gt;reference to the aforementioned purchase.&lt;/p&gt;</h2>
+<pre>$_cardToken : \TangoCard\Sdk\Response\Success\Card</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="%24_challengeKey" id="$_challengeKey"> </a><div class="element clickable property private $_challengeKey" data-toggle="collapse" data-target=".$_challengeKey .collapse">
+<h2>&lt;p&gt;on the retailer, some eGift Cards Challenge Key in order to be accessed; if that is the case you will find it next to your link or URL. You will be prompted to input your Challenge Key when you try to open your eGift Card.&lt;/p&gt;</h2>
+<pre>$_challengeKey : \TangoCard\Sdk\Response\Success\Depending</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="%24_claimUrl" id="$_claimUrl"> </a><div class="element clickable property private $_claimUrl" data-toggle="collapse" data-target=".$_claimUrl .collapse">
+<h2>&lt;p&gt;is the address of a web page on the World Wide Web. This URL can only be accessed through the email you received. It is a unique URL, meaning that it cannot be duplicated or altered.&lt;/p&gt;</h2>
+<pre>$_claimUrl : \TangoCard\Sdk\Response\Success\It</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="%24_eventNumber" id="$_eventNumber"> </a><div class="element clickable property private $_eventNumber" data-toggle="collapse" data-target=".$_eventNumber .collapse">
+<h2>&lt;p&gt;on the retailer,&lt;/p&gt;</h2>
+<pre>$_eventNumber : \TangoCard\Sdk\Response\Success\Depending</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+<a name="%24_referenceOrderId" id="$_referenceOrderId"> </a><div class="element clickable property private $_referenceOrderId" data-toggle="collapse" data-target=".$_referenceOrderId .collapse">
+<h2>&lt;p&gt;number of purchase.&lt;/p&gt;</h2>
+<pre>$_referenceOrderId : \TangoCard\Sdk\Response\Success\Confirmation</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><p class="long_description"></p></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a8</a> and<br>
+            generated on 2013-03-08T11:54:14-08:00.<br></footer></div>
+</div>
+</body>
+</html>

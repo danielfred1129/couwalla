@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da677dd8-1c68-4f46-8876-a1f2406eaef0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/api/privacy_policy/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/.svn/text-base/admin.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/.svn/text-base/index.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/.svn/text-base/login.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/.svn/text-base/welcome.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/ssl/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/ssl/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/ssl/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/controllers/ssl/.svn/text-base/cacert.pem.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/text-base/admin.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/text-base/ajax_admin.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/text-base/index.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/text-base/login.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/text-base/welcome.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/tmp/admin.php.2.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/core/controllers/.svn/tmp/admin.php.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/models/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/models/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/models/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/models/.svn/text-base/admin_model.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/models/.svn/text-base/index.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/models/.svn/text-base/login_model.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/text-base/admin_model.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/text-base/ajax_model.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/text-base/customer_model.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/text-base/index.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/third_party/models/.svn/text-base/login_model.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_advertisements.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_campaigns.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_coupon.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_coupons.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_customer.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_giftcard.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_notification.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_staff.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_store.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/add_user.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/advert_details.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/advertisements.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/ajxForgotPwd.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/campaign_details.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/campaigns.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/change_password.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/coupon_detailed_report.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/coupon_details.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/coupon_summary_report.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/coupons.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/customer_profile.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/customers.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/dashboard.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/display_coupon_detailed_report.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/display_staff.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/get_ajax_data.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/get_coupon_summary.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/giftcard_details.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/giftcards.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/index.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/login.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/my_profile.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/notification_details.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/notifications.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/save.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/staff_profile.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/store_details.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/stores.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/subscriber_dashboard.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/subscriber_dashboard_report.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_advertisements.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_campaigns.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_coupons - Copy.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_coupons.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_customer.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_giftcard.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_my_profile.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_notification.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_stores.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/update_users.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/user_profile.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/users.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/text-base/welcome_message.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/.svn/tmp/add_store.php.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/footer/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/footer/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/footer/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/footer/.svn/text-base/footer.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/header/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/header/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/header/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/header/.svn/text-base/bread_crumb.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/header/.svn/text-base/header.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/header/.svn/text-base/side_menu.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/application/views/header/.svn/text-base/side_menu_1.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/text-base/animate.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/text-base/print.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/text-base/style-metro.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/text-base/style-non-responsive.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/text-base/style-responsive.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/.svn/text-base/style.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/about-us.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/blog.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/coming-soon.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/email.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/error.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/image-crop.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/inbox.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/invoice.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/lock.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/login-soft.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/login.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/news.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/pricing-tables.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/profile.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/promo.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/search.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/tasks.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/pages/.svn/text-base/timeline.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/text-base/blue.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/text-base/brown.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/text-base/default.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/text-base/grey.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/text-base/light.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/css/themes/.svn/text-base/purple.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/prop-base/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/prop-base/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/prop-base/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/prop-base/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/text-base/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/text-base/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/text-base/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/text-base/font.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/.svn/text-base/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/ajax-loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/ajax-modal-loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/arrow-down.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/avatar.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/avatar1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/avatar1_small.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/avatar2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/avatar3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/avatar3_small.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/bg-opacity.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/bg-white-lock.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/bg-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/datatable-row-openclose.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/hor-menu-red-arrow.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/hor-menu-search-close-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/hor-menu-search-close.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/hor-menu-search.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/hor-menu-search.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/icon-color-close.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/icon-color.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/icon-img-down.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/icon-img-up.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/inbox-nav-arrow-blue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/input-spinner.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/logo-big.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/logo-main.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/logo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/menu-toggler.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/overlay-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/photo1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/photo2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-collapse-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-collapse-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-config-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-config-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-expand-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-expand-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-reload-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-reload-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-remove-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/portlet-remove-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/remove-icon-small.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/search-icon-blue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/search-icon-brown.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/search-icon-purple.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/search-icon-red.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/search-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/search-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/select-caret.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-menu-arrow-green-right.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-menu-arrow-green.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-menu-arrow-right.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-menu-arrow-rtl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-menu-arrow.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-search-close-blue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-search-close-brown.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-search-close-light.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-search-close-purple.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-search-close.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-toggler-blue.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-toggler-brown.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-toggler-light.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-toggler-purple.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-toggler.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/sidebar-toggler.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/syncfusion-icons-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/prop-base/syncfusion-icons.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/ajax-loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/ajax-modal-loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/arrow-down.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/avatar.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/avatar1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/avatar1_small.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/avatar2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/avatar3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/avatar3_small.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/bg-opacity.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/bg-white-lock.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/bg-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/datatable-row-openclose.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/hor-menu-red-arrow.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/hor-menu-search-close-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/hor-menu-search-close.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/hor-menu-search.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/hor-menu-search.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/icon-color-close.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/icon-color.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/icon-img-down.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/icon-img-up.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/inbox-nav-arrow-blue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/input-spinner.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/logo-big.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/logo-main.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/logo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/menu-toggler.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/overlay-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/photo1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/photo2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-collapse-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-collapse-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-config-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-config-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-expand-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-expand-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-reload-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-reload-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-remove-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/portlet-remove-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/remove-icon-small.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/search-icon-blue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/search-icon-brown.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/search-icon-purple.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/search-icon-red.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/search-icon-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/search-icon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/select-caret.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-menu-arrow-green-right.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-menu-arrow-green.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-menu-arrow-right.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-menu-arrow-rtl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-menu-arrow.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-search-close-blue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-search-close-brown.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-search-close-light.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-search-close-purple.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-search-close.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-toggler-blue.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-toggler-brown.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-toggler-light.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-toggler-purple.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-toggler.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/sidebar-toggler.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/syncfusion-icons-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/.svn/text-base/syncfusion-icons.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/prop-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/prop-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/prop-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/prop-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/text-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/text-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/text-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/bg/.svn/text-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/10.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/11.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/12.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/13.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/14.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/15.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/16.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/17.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/18.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/19.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/20.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/6.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/7.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/8.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/9.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/10.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/11.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/12.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/13.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/14.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/15.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/16.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/17.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/18.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/19.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/20.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/6.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/7.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/8.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/9.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/blog/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ad.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ae.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/af.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ag.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ai.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/al.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/am.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/an.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ao.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ar.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/as.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/at.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/au.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/aw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ax.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/az.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ba.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/be.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/br.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/by.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/bz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ca.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/catalonia.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ch.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ci.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ck.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/co.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cx.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/cz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/de.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/dj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/dk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/dm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/do.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/dz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ec.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ee.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/eg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/eh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/england.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/er.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/es.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/et.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/europeanunion.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/fam.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/fi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/fj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/fk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/fm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/fo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/fr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ga.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ge.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gq.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/gy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/hk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/hm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/hn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/hr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ht.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/hu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/id.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ie.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/il.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/in.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/io.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/iq.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ir.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/is.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/it.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/jm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/jo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/jp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ke.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/kg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/kh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ki.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/km.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/kn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/kp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/kr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/kw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ky.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/kz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/la.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/lb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/lc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/li.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/lk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/lr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ls.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/lt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/lu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/lv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ly.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ma.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/md.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/me.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ml.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mq.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ms.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mx.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/my.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/mz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/na.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/nc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ne.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/nf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ng.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ni.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/nl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/no.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/np.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/nr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/nu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/nz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/om.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pe.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ph.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ps.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/pw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/py.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/qa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/re.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ro.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/rs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ru.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/rw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/scotland.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/se.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/si.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/so.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/st.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/sz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/td.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/th.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/to.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/tz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ua.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ug.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/um.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/us.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/uy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/uz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/va.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/vc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ve.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/vg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/vi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/vn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/vu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/wales.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/wf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ws.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/ye.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/yt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/za.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/zm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/prop-base/zw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ad.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ae.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/af.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ag.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ai.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/al.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/am.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/an.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ao.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ar.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/as.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/at.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/au.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/aw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ax.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/az.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ba.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/be.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/br.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/by.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/bz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ca.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/catalonia.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ch.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ci.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ck.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/co.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cx.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/cz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/de.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/dj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/dk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/dm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/do.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/dz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ec.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ee.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/eg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/eh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/england.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/er.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/es.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/et.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/europeanunion.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/fam.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/fi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/fj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/fk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/fm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/fo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/fr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ga.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ge.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gq.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/gy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/hk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/hm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/hn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/hr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ht.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/hu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/id.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ie.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/il.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/in.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/io.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/iq.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ir.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/is.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/it.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/jm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/jo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/jp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ke.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/kg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/kh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ki.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/km.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/kn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/kp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/kr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/kw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ky.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/kz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/la.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/lb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/lc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/li.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/lk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/lr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ls.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/lt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/lu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/lv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ly.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ma.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/md.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/me.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ml.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mp.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mq.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ms.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mx.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/my.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/mz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/na.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/nc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ne.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/nf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ng.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ni.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/nl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/no.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/np.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/nr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/nu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/nz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/om.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pe.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ph.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ps.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/pw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/py.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/qa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/re.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/readme.txt.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ro.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/rs.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ru.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/rw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sb.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/scotland.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sd.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/se.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sh.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/si.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/so.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/st.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/sz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/td.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/th.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tj.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tl.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/to.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tv.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/tz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ua.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ug.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/um.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/us.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/uy.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/uz.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/va.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/vc.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ve.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/vg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/vi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/vn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/vu.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/wales.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/wf.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ws.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/ye.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/yt.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/za.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/zm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/flags/.svn/text-base/zw.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/image1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/image2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/image3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/image4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/image5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/item_img.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/item_img1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_02.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_03.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_04.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_05.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_06.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_07.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_08.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_09.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_10.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_11.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_12.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_13.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_14.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_15.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_16.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_17.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/prop-base/preview_18.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/image1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/image2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/image3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/image4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/image5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/item_img.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/item_img1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_02.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_03.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_04.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_05.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_06.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_07.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_08.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_09.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_10.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_11.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_12.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_13.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_14.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_15.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_16.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_17.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/gallery/.svn/text-base/preview_18.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/invoice/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/invoice/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/invoice/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/invoice/.svn/prop-base/walmart.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/invoice/.svn/text-base/walmart.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/earth.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/img.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/img1.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/img1_2.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/img2.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/img3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/img3.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/prop-base/img4.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/earth.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/img.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/img1.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/img1_2.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/img2.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/img3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/img3.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/pages/.svn/text-base/img4.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/prop-base/profile-img.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/prop-base/profile-img.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/prop-base/profile.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/text-base/profile-img.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/text-base/profile-img.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/.svn/text-base/profile.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/prop-base/logo_azteca.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/prop-base/logo_conquer.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/prop-base/logo_metronic.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/text-base/logo_azteca.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/text-base/logo_conquer.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/profile/portfolio/.svn/text-base/logo_metronic.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/prop-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/prop-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/prop-base/img1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/prop-base/img2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/prop-base/img3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/text-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/text-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/text-base/img1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/text-base/img2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/search/.svn/text-base/img3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/amazon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/behance.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/blogger.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/deviantart.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/dribbble.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/dropbox.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/evernote.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/facebook.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/forrst.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/github.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/googleplus.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/instagram.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/jolicloud.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/last-fm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/linkedin.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/picasa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/pintrest.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/rss.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/skype.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/spotify.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/stumbleupon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/tumblr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/twitter.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/vimeo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/vk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/wordpress.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/xing.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/yahoo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/prop-base/youtube.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/amazon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/behance.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/blogger.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/deviantart.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/dribbble.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/dropbox.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/evernote.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/facebook.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/forrst.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/github.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/googleplus.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/instagram.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/jolicloud.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/last-fm.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/linkedin.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/picasa.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/pintrest.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/rss.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/skype.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/spotify.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/stumbleupon.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/tumblr.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/twitter.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/vimeo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/vk.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/wordpress.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/xing.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/yahoo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/img/social/.svn/text-base/youtube.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/excanvas.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery-1.10.1.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery-migrate-1.2.1.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery.blockui.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery.bootpag.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery.cookie.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery.input-ip-address-control-1.0.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery.mockjax.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery.pulsate.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/jquery.sparkline.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/moment.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/.svn/text-base/respond.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/backstretch/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/backstretch/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/backstretch/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/backstretch/.svn/text-base/jquery.backstretch.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/backstretch/.svn/text-base/jquery.backstretch.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/css/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/css/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/css/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/css/.svn/text-base/colorpicker.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/prop-base/alpha.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/prop-base/hue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/prop-base/saturation.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/text-base/alpha.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/text-base/hue.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/img/.svn/text-base/saturation.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/js/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/js/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/js/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/js/.svn/text-base/bootstrap-colorpicker.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/less/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/less/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/less/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-colorpicker/less/.svn/text-base/colorpicker.less.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/.gitignore.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/.hgignore.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/.hgtags.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/.travis.yml.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/CHANGELOG.md.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/CONTRIBUTING.md.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/LICENSE.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/README.md.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/.svn/text-base/component.json.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/build/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/build/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/build/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/build/.svn/text-base/build.less.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/build/.svn/text-base/build_standalone.less.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/css/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/css/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/css/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/css/.svn/text-base/datepicker.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/.svn/text-base/bootstrap-datepicker.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.bg.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.ca.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.cs.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.da.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.de.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.el.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.es.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.et.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.fi.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.fr.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.he.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.hr.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.hu.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.id.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.is.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.it.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.ja.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.kr.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.lt.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.lv.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.mk.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.ms.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.nb.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.nl.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.pl.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.pt-BR.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.pt.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.ro.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.rs-latin.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.rs.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.ru.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.sk.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap-datepicker/js/locales/.svn/text-base/bootstrap-datepicker.sl.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/css/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/css/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/css/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/css/.svn/text-base/bootstrap-responsive.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/css/.svn/text-base/bootstrap-responsive.min.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/css/.svn/text-base/bootstrap.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/css/.svn/text-base/bootstrap.min.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/img/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/img/.svn/prop-base/glyphicons-halflings-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/img/.svn/prop-base/glyphicons-halflings.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/img/.svn/text-base/glyphicons-halflings-white.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/img/.svn/text-base/glyphicons-halflings.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/js/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/js/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/js/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/js/.svn/text-base/bootstrap.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/plugins/bootstrap/js/.svn/text-base/bootstrap.min.js.svn-base" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.m" afterPath="$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="Couwalla.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="Coupit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CouponDetailViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="524" column="24" selection-start="19165" selection-end="19165" vertical-scroll-proportion="10.680628" vertical-offset="0" max-vertical-offset="11856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponsViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponsViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="353" column="27" selection-start="15204" selection-end="15204" vertical-scroll-proportion="0.0" vertical-offset="5482" max-vertical-offset="14976">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponTableCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coupit/Views/TableCells/CouponTableCell/CouponTableCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="155" column="32" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.0" vertical-offset="2480" max-vertical-offset="3536">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponDescriptionCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coupit/Views/TableCells/CouponDescriptionCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="1" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="688">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponDetailViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="66" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="592" max-vertical-offset="1248">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponsViewController.m" />
+        <option value="$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.m" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GREST" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coupit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rdParties" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Coupit">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Coupit" TARGET_NAME="Coupit" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Coupit" RUN_TARGET_NAME="Coupit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Coupit" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Coupit" PROJECT_NAME="Coupit" TARGET_NAME="Coupit" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Coupit" RUN_TARGET_NAME="Coupit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Coupit" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da677dd8-1c68-4f46-8876-a1f2406eaef0" name="Default" comment="" />
+      <created>1392827508114</created>
+      <updated>1392827508114</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="874" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295238" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="79" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="353" column="27" selection-start="15204" selection-end="15204" vertical-scroll-proportion="0.0" vertical-offset="5482" max-vertical-offset="14976">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Views/TableCells/CouponTableCell/CouponTableCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="32" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.0" vertical-offset="2480" max-vertical-offset="3536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Views/TableCells/CouponDescriptionCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="1" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="66" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="592" max-vertical-offset="1248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponsViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Coupit-Prefix.pch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="43" selection-start="7108" selection-end="7108" vertical-scroll-proportion="0.14882308" vertical-offset="3580" max-vertical-offset="5152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="66" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Views/TableCells/CouponDescriptionCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="1" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Views/TableCells/CouponTableCell/CouponTableCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="32" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.0" vertical-offset="1984" max-vertical-offset="3376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="353" column="27" selection-start="15204" selection-end="15204" vertical-scroll-proportion="0.0" vertical-offset="5482" max-vertical-offset="14976">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coupit/Controller/RootViewController/CouponsViewController/CouponDetailViewController/CouponDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="524" column="24" selection-start="19165" selection-end="19165" vertical-scroll-proportion="10.680628" vertical-offset="0" max-vertical-offset="11856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

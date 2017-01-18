@@ -1,0 +1,1 @@
+php c:\php\v5.3\phpdoc.php --title "Tango Card PHP SDK" --force -d . -t doc\phpdoc

@@ -1,0 +1,427 @@
+//
+// Prefix header for all source files of the 'Coupit' target in the 'Coupit' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "Repository.h"
+#import "ProgressHudPresenter.h"
+#import "DataManager.h"
+#import "DPKMakeURL.h"
+#import "appcommon.h"
+
+// TODO: declare below class to their relavent use class
+#import "ZBarSDK.h"
+#import "Location.h"
+
+// ------------------
+#import "DPKLog.h"
+#import "SDImageCache.h"
+
+#import "BaseViewController.h"
+#import "HUDManager.h"
+
+#define IS_IPHONE_5 ([[UIScreen mainScreen] bounds].size.height == 568)
+
+#define kDBName @"CoupitDB.sqlite"
+#define kImagePathDownload @"image"
+#define kCardImages @"card"
+
+// Notification Type
+#define kAdvertisement @"advertisement"
+#define kRewardPointsUpdate @"reward-points-update"
+#define kGiftcardNotification @"new-gift-card"
+#define kStoreCouponNotification @"store-coupons"
+
+// Globel Setting
+#define kLegalUrl @"legalUrl"
+#define kLogoUrl @"logoUrl"
+#define kSupportUrl @"supportUrl"
+#define kContentUrl @"contentUrl"
+#define kAdTimer @"adTimer"
+
+// Request
+typedef enum{
+    kDownloadImage = 0,
+    kGlobalSettingRequest,
+    kLoginRequest,
+    kReLoginRequest,
+    kCategoriesRequest,
+    kCouponGroupsRequest,
+    kCouponBrandRequest,
+    kStoreRequest,
+    kCouponQueryRequest,
+    kStoreQueryRequest,
+    kCouponDownload,
+    kCouponDownloadToTag,
+    kCouponQueryStorePostRequest,
+    kCouponQueryBrandPostRequest,
+    kCreateSubscriberPostRequest,
+    kForgotPasswordRequest,
+    kEditProfileRequest,
+    kKeyWordCouponPostRequest, 
+    kGiftCardsPostRequest,
+    kSubscriberByNameRequest,
+    kRedeemCouponRequest,
+    kRedeemGiftCardRequest,
+    kAPNSRedeemGiftCardRequest,
+    kAdvertsRequest,
+    kAdClickRequest,
+    kCouponDetailRequest,
+    kRegisterDeviceTokenRequest,
+    kSolrStoreRequest,
+    kSolrStoreMapRequest,
+    kLogoutRequest,
+    kShareCouponURLRequest,
+    kStoreSearchRequest,
+    kBrandSearchRequest,
+    kPassWordChangeRequest,
+    kAddStorePreferencesRequest,
+    kEditStorePreferencesRequest,
+    kDeleteStorePreferenceRequest,
+    kGetAllStorePreferenceRequest,
+    kSendDeviceTokenRequest,
+    kCouponPlanRequest,
+    kCouponUnPlanRequest,
+    kCouponFavRequest,
+    kCouponUnFavRequest,
+    kGoogleAPIRequest,
+    kNearMeCouponRequest,
+    kWhatsHotCouponRequest,
+    kTodaysDealCouponRequest,
+    kMostPopularCouponRequest,
+    kRecommendeCouponRequest,
+    kRedeemAllCouponRequest,
+    kSubscriberLocationUpdate
+}RequestType;
+
+// Loading Screens
+typedef enum {
+    kCouponScreen,
+    kNearMeScreen,
+    kBrandSceen,
+    kCouponDetailScreen,
+    kMyCouponScreen,
+    kStoreListScreen,
+    kGiftCardDetailScreen, 
+    kRedeemPointsScreen,
+    kGiftCardScreen,
+    kStoreSearchScreen,
+    kBrandSearchScreen,
+    kRedeemCouponScreen
+}ScreenType;
+
+
+// Group Preference
+typedef enum {
+    kWhatsHotGroup = 10,
+    kNearMeGroup,
+    kMostPopularGroup,
+    kBestDealGroup,
+    kRemmendedGroup
+}GroupType;
+
+
+// Location Preference
+typedef enum {
+    kCurrentLocation,
+    kHomeLocation,
+    kZipPostalCode
+}LocationPreference;
+
+// Card 
+typedef enum {
+    kLoyaltyCard,
+    kGiftCard
+}CardType;
+
+// Location
+typedef enum {
+    kstoreSelected,
+    kBrandSelected,
+    kQRSelected
+}StoreLocatorType;
+
+
+// Search Types
+typedef enum {
+    kCouponSearch = 0,
+    kStoreSearch,
+    kBrandSearch,
+    kLoyaltyCardSearch
+}SearchType;
+
+// SignUp Types
+typedef enum {
+    kNormalLogin = 0,
+    kFacebookSignUp,
+}SignUpType;
+
+typedef enum {
+    kAddStorePreferenes = 0,
+    kEditStorePreferences
+}StorePreferencesType;
+
+//EntityType
+typedef enum {
+    kBrandEntityType = 1,
+    kStoreEntityType
+}EntityType;
+
+
+typedef enum {
+    kFromSignUpView,
+    kFromProfileView
+}CouponPrefrencesSelected;
+
+// Local Alert Messages
+#define kInternetNotAvailableMessage @"No Internet Connection"
+#define kSignUpSuccessfulMessage @"Thank you for joining Couwalla! You may then login with your credentials."
+#define kSignUpFailedmessage @"Not able to signup please try later"
+#define kTextFieldValidationMessage @"Required information is missing"
+#define kCouponDownloadedMessage @"Coupon added to My Coupons"
+#define kGiftCardAddedMessage @"Gift Card added to your wallet"
+#define kProfileUpdatedMessage @"Profile updated successfully"
+#define kLogoutFailedMessage @"Logout failed"
+#define kUserNameEmptyMessage @"Login ID cannot be empty"
+#define kPassWordEmptyMessage @"Password cannot be empty"
+#define KPasswordlengthmessage @"Password should have length more than 6 characters"
+#define kRePassWordEmptyMessage @"Re-Password cannot be empty"
+#define kNameFieldMessage @"Name cannot be empty"
+#define kAgeFieldMessage @"Gender should not be empty"
+#define kInvalidAgemessage @"Enter correct age"
+#define kZipFieldMessage @"ZIP cannot be empty"
+#define kZipFieldLengthMessage @"Zip Code should be of 5 digits or 9 digits"
+#define kZipFieldErrorMessage @"Spaces not allowed in zipCode"
+#define kEmailFieldMessage @"Email Should not be blank"
+#define kPasswordNotMatchMessage @"Password and Re-Password should be same"
+#define kInvalidFamilyMemberMessage @"Please enter a valid number of family member"
+#define kInvalidChildrenMessage @"Please enter a valid number of children"
+#define kInvalidNoOfPet @"Please enter a valid number of pets"
+#define kCharacterValidationMessage @"Name must have only alphabets"
+#define kEmailValidationMessage @"Please enter correct email"
+#define kRedeemCouponMessage @"Coupon will only be visible for 60 minutes before being removed. Are you sure you wish to redeem now?"
+#define kDeleteCouponMessage @"Coupon will no longer be available"
+#define kPasswordResetMessage @"Your PIN has been emailed to you."
+#define kStorePrefrencesMessage @"Store added to preferences successfully"
+#define kBrandPrefrencesMessage @"Brand added to preferences successfully"
+#define kprivacycheckingMessae @"Please `Tick` the Terms of Service/Privacy Policy before submitting!"
+#define kTermsAndConditionscheckingMessae @"Please `Tick` the Terms of Service/Terms and conditions Policy before submitting!"
+#define kHudMassage @"Please Wait..."
+
+#define kItemsPerPage 75    //page size
+#define kPickerLimit 50
+
+#define kUsernameKey @"k_UsernameKey"
+#define kPasswordKey @"k_PasswordKey"
+#define kLocationPreference @"k_LocationPreference"
+#define kZipCodeLocation @"k_ZipCodeLocation"
+#define kCheckInStore @"k_CheckInStoreID"
+#define kDayofWeek @"k_dayOfWeek"
+#define kCouponRequestDay @"k_couponRequestDay"
+
+#define kRewardCardKey @"k_RewardCardKey"
+#define KLogout @"logout"
+#define kCountryCode @"CountryCode"
+
+//Alphabets and Numeric Range   Constant
+#define kALPHA @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+#define kNUMERIC @"0123456789"
+#define kEMAIL (kALPHA kNUMERIC @"@._")
+
+//Login Constant Credential
+#define kDeviceType @"IOS"
+#define kFbLogin @"Facebook"
+#define kGooglePlusLogin @"Google"
+#define kCouwallaLogin @"Couwalla"
+
+
+//ec2-54-225-67-163.compute-1.amazonaws.com
+//prodlb-905810012.us-east-1.elb.amazonaws.com
+
+
+
+
+#define kURL_CommonPath @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/couwalla/api/v1" 
+
+#define kURL_GlobalSetting              (kURL_CommonPath @"/globalSetting")
+#define kURL_CouponGroups               (kURL_CommonPath @"/coupon/groups")
+//#define kURL_Categories                 (kURL_CommonPath @"/coupon/categories")
+#define kGetStorenBrand           [NSString stringWithFormat:@"%@/get_retailer_coupons.php?data=",BASE_URL]
+
+
+#define kURL_Categories                 [NSString stringWithFormat:@"%@/get_categories.php",BASE_URL]
+#define kURL_CouponBrands               (kURL_CommonPath @"/brand/query")
+#define kURL_NearMe                     (kURL_CommonPath @"/store/query")
+#define kURL_CouponQuery                (kURL_CommonPath @"/coupon/featured")
+//#define kURL_StoreQuery                 (kURL_CommonPath @"/store/query")
+#define kURL_StoreQuery                 [NSString stringWithFormat:@"%@/store_qr_checkin.php?",BASE_URL]
+#define kURL_CouponDownload             (kURL_CommonPath @"/coupon/download")
+#define kURL_PostCouponQuery            (kURL_CommonPath @"/coupon/query")
+//#define kURL_PostCouponQuery            @"http://api.couwallabi.com/api/search_manufacturer_coupons.php?"
+#define KURL_PostCreateSubscriberQuery  (kURL_CommonPath @"/subscriber")
+#define KURL_LoginRequestQuery          (kURL_CommonPath @"/auth/auth_key")
+//#define KURL_ForgotPasswordRequestQuery (kURL_CommonPath @"/subscriber/password/forgot")
+#define KURL_ForgotPasswordRequestQuery [NSString stringWithFormat:@"%@/forgotpassword.php?",BASE_URL]
+#define KURL_EditProfileQuery           (kURL_CommonPath @"/subscriber")
+#define KURL_PasswordChange             (kURL_CommonPath @"/subscriber/password/change")
+#define KURL_AddStorePreferences        (kURL_CommonPath @"/store-prefs")
+#define KURL_DeleteStorePreferences     (kURL_CommonPath @"/store-prefs/delete")
+#define KURL_GetAllStorePreferences     (kURL_CommonPath @"/store-prefs")
+#define kURL_RedeemCoupon               (kURL_CommonPath @"/coupon/redeem")
+#define kURL_RedeemAllCoupon            (kURL_CommonPath @"/coupon/redeem")
+#define kGetAdvertsURL                  (kURL_CommonPath @"/adverts")
+#define kURL_GiftCardNotification       (kURL_CommonPath @"/platform-rewards/gift-cards")
+#define KLogoutRequestURL               (kURL_CommonPath @"/subscriber")
+#define kShareCouponURLRequestURL       (kURL_CommonPath @"/coupon/share")
+#define kPlanCouponRequestURL           (kURL_CommonPath @"/coupon/plan/")
+#define kUnPlanCouponRequestURL         (kURL_CommonPath @"/coupon/unplan/")
+#define kFavouriteCouponRequestURL      (kURL_CommonPath @"/coupon/favorite/")
+#define kUnFavouriteCouponRequestURL    (kURL_CommonPath @"/coupon/unfavorite/")
+
+//SubscriberLocation
+#define kURL_SubscriberLocation @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/couwallapn/api/v1/subscriber-location"
+
+// Terms and Conditions
+#define kTermsConditions [NSString stringWithFormat:@"%@/get_terms_conditions.php?couponid=",BASE_URL]
+#define kLatLng [NSString stringWithFormat:@"%@/get_coupon_lat?couponid=",BASE_URL]
+#define kCouponDetails [NSString stringWithFormat:@"%@/get_coupon_details?data=",BASE_URL]
+
+#define kNearStores               [NSString stringWithFormat:@"%@/get_nearby_stores.php?data=",BASE_URL]
+#define kNearBrands               [NSString stringWithFormat:@"%@/get_nearby_brands.php?data=",BASE_URL]
+#define kSearchForBrand           [NSString stringWithFormat:@"%@/search_nearby_brands.php?data=",BASE_URL]
+#define kSearchForStore           [NSString stringWithFormat:@"%@/search_nearby_stores.php?data=",BASE_URL]
+
+#define kGetStorenBrand           [NSString stringWithFormat:@"%@/get_retailer_coupons.php?data=",BASE_URL]
+
+
+
+//#define kGetStorenBrand           @"http://api.couwallabi.com/api/get_retailer_coupons.php?data="
+#define KGetCouponsBtCategoryId   [NSString stringWithFormat:@"%@/get_category_coupons.php?data=",BASE_URL]
+#define kGetMulipleCouponsDetail  [NSString stringWithFormat:@"%@/get_multicoupon_details.php?data=",BASE_URL]
+
+
+//SolrCouponCommonRequest
+//#define KURL_SolrCouponRequest @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/solr/coupons/select"
+#define KURL_SolrCouponRequest [ NSString stringWithFormat:@"%@/get_20coupons.php?",BASE_URL]
+
+// Subscriber - Reward
+//#define KURL_Subscriber (kURL_CommonPath@"/subscriber/get?name=")
+#define KURL_Subscriber [NSString stringWithFormat:@"%@/signin.php?",BASE_URL]
+#define kGetSubscriberByNameURL(user_name) [NSString stringWithFormat:@"%@%@",KURL_Subscriber, user_name]
+
+// GiftCards
+#define kURL_PostGiftCardsQuery (kURL_CommonPath @"/platform-rewards/gift-cards/query")
+
+// Redeem GiftCard
+#define KURL_RedeemGiftCard @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/couwalla/api/v1/platform-rewards/gift-cards/redeem?id=%@&qty=%d"
+#define kGetRedeemGiftCardURL(id, qty) [NSString stringWithFormat:@"http://prodlb-905810012.us-east-1.elb.amazonaws.com/couwalla/api/v1/platform-rewards/gift-cards/redeem?id=%@&qty=%d", id, qty]
+
+// Ad Click
+#define kGetAdClickURL(adID) [NSString stringWithFormat:@"http://prodlb-905810012.us-east-1.elb.amazonaws.com/couwalla/api/v1/adverts/click?id=%@", adID]
+
+#define kGetAdDetail [NSString stringWithFormat:@"%@/get_advertisement_detail.php",BASE_URL]
+
+// Register Device Token
+#define kRegisterDeviceTokenURL @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/couwalla/api/push/apns/tokens"
+
+#define kSolrStoresMapRequestURL @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/solr/stores/select?wt=json&rows=10&start=0&indent=true&q=*:*&fq=%7B!bbox%7D&sfield=geo_coordinate&d=500&sort=geodist()%20asc"
+#define kSolrStoresRequestURL @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/solr/stores/select?wt=json&indent=true&q=*:*&fq=%7B!bbox%7D&sfield=geo_coordinate&d=5000&sort=geodist()%20asc"
+
+#define kDeviceTokenRequestURL @"http://prodlb-905810012.us-east-1.elb.amazonaws.com/couwalla/api/push/gcm/tokens"
+
+// Authorization scope
+// Know your name, basic info, and list of people you're connected to on Google+
+//#define kGTLAuthScopePlusLogin @"https://www.googleapis.com/auth/plus.login"
+//#define kClientID @"129380242541-d42vsruug987iq957vfjhqv8ut15gbjn.apps.googleusercontent.com"
+
+
+//google key given by clien
+//#define kClientID @"609301238804-90r38gn8qv7kho8bsb8q6jsr0ji2a7ft.apps.googleusercontent.com"
+#define kClientID @"1050641501183-a922r0u457c0gqliju2fnvtpresovin6.apps.googleusercontent.com"
+
+#define kGoogleMapAPIKey @"AIzaSyA0oazpSghsOHRFGbiSCqx4rv9YHaajCHk"
+
+#define kLocalyticsAPIKey @"990ec277ae3e2b71c5a0894-3cc0e606-dd0f-11e3-9aa7-005cf8cbabd8"
+
+// Screen names for Localytics
+
+#define kLoginScreen @"Log in"
+
+#define kRegistrationScreen @"Registration"
+
+#define kMyCouponsScreen @"My Coupons"
+
+#define kCouponsScreen @"Coupons"
+
+#define kWalletScreen @"Wallet"
+
+#define kRewardsScreen @"Rewards"
+
+#define kBrandsStoresScreen @"Brands / Stores"
+
+#define kPlannerScreen @"Planner"
+
+#define kLocationScreen @"Location"
+
+#define kMyProfile @"My Profile"
+
+#define kSurveyScreen @"Survey"
+
+#define kQRCheckin @"QR Check-in"
+
+//////////////////////////////
+
+// Event "Name and Attributes" to Tag in Localytics Module
+
+#define kAppLaunch  @"App Launch"
+
+#define kSourceOfLaunch @"Source of launch"
+
+#define kLoginSummary @"Login Summary"
+
+#define kTimeSpent @"Time spent"
+
+#define kLoginAttempts @"Login attempts"
+
+#define kRegistrationStart @"Registration Start"
+
+#define kTime @"Time"
+
+#define kRegistrationComplete @"Registration Complete"
+
+#define kLoadTime @" Load time"
+
+#define kAttempt @"Attempt"
+
+#define kErrorSummary @"Error Summary"
+
+#define kError @"Error"
+
+//////////////////////////////
+
+//// location service massage
+
+#define kLocationMassage @"Your location settings are off, please turn on your location for the app to function properly."
+
+#define kLocationMassageForCoupons @"Please turn on your location in your settings to view the coupons available near you."
+
+
+//appia
+
+#define AppiaiD @"5861"
+
+// client id couwalla 5861
+
+
+// canopus id appwall 5996
+// canopus id bannar 5999

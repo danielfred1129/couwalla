@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<phpunit
+        backupGlobals               = "false"
+        backupStaticAttributes      = "false"
+        colors                      = "true"
+        convertErrorsToExceptions   = "true"
+        convertNoticesToExceptions  = "true"
+        convertWarningsToExceptions = "true"
+        processIsolation            = "false"
+        stopOnFailure               = "false"
+        syntaxCheck                 = "true"
+        bootstrap                   = "../lib/TangoCardSdkAutoloader.php" 
+        strict                      = "false"
+        verbose                     = "false"
+        >
+
+  <testsuites>
+    <testsuite name="Tango Card PHP SDK Unit-Tests - INTEGRATION">
+      <directory phpVersion="5.3.0" phpVersionOperator=">=" >./unittests/</directory>
+      <file phpVersion="5.3.0" phpVersionOperator=">=">./unittests/UnitTest_GetAvailableBalance.php</file>
+      <file phpVersion="5.3.0" phpVersionOperator=">=">./unittests/UnitTest_PurchaseCard.php</file>
+    </testsuite>
+  </testsuites>
+
+  <!-- This is required for VPU to work correctly -->
+  <listeners>
+    <listener class="PHPUnit_Util_Log_JSON"></listener>
+  </listeners>
+
+</phpunit>
